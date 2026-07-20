@@ -1,14 +1,20 @@
-<!-- BANNER IMAGE AREA — replace ./banner.png with your own image -->
 <div align="center">
-  <img width="100%" src="./banner.png" alt="Kayra Banner" />
-</div>
 
-<br/>
+  <!-- FOTOĞRAF ALANI (Buraya kendi yuvarlak profil fotoğrafını koyabilirsin) -->
+  <img src="https://github.com/Kayra-ML.png" width="160" height="160" style="border-radius: 50%; border: 2px solid #00ff41;" alt="Kayra-ML" />
 
-<div align="center">
+  <h1>Kayra ML</h1>
+  <p><i>That's me.</i></p>
+
+  <!-- YEŞİL HELLO BUTONU -->
+  <a href="#">
+    <img src="https://img.shields.io/badge/HELLO_THERE!-00FF41?style=for-the-badge&logoColor=black&labelColor=0d1117" alt="Hello" />
+  </a>
+
+<br/><br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=650&height=55&lines=Hey%2C+I'm+Kayra+%F0%9F%91%8B;Machine+Learning+%7C+Data+Science;Python+%7C+SQL+%7C+Deep+Learning;Building+things+with+data+%F0%9F%93%8A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=650&height=55&lines=Machine+Learning+%7C+Data+Science;Python+%7C+SQL+%7C+Deep+Learning;Building+things+with+data+%F0%9F%93%8A" alt="Typing SVG" />
 </a>
 
 <br/><br/>
