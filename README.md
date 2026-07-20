@@ -134,11 +134,11 @@ class Kayra:
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
-| **[LifeOS](https://github.com/Kayra-ML/LifeOS)** | Notion-powered personal life OS — web + mobile + API | FastAPI · Flutter · PWA |
-| **[Orchestra AI](https://github.com/Kayra-ML/QuantumAi)** | Multi-agent AI orchestration platform + RAG chatbot | LangChain · Ollama · ChromaDB |
-| **[Zcore](https://github.com/Kayra-ML/Zcore)** | Desktop + web control panel (Electron + Next.js) | Electron · React 19 · Prisma |
+| **[LifeOS](https://github.com/Kayra-ML/L-feOS)** | Notion-powered personal life OS — web + mobile + API | FastAPI · Flutter · PWA |
+| **[Thomas](https://github.com/Kayra-ML/thomas)** | Automated Discord registration bot | Node.js · Discord.js · Railway |
+| **[Zcore](https://github.com/Kayra-ML/zcore)** | Desktop + web control panel (Electron + Next.js) | Electron · React 19 · Prisma |
 | **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Discord cluster music bot — multi-server support | discord.py · Docker · asyncio |
-| **[F1 Analysis](https://github.com/Kayra-ML/f1DataAnalysis)** | Formula 1 big data analysis platform | FastAPI · PostgreSQL · React |
+| **[F1 Analysis](https://github.com/Kayra-ML/fast_f1_data)** | Formula 1 big data analysis platform | FastAPI · PostgreSQL · React |
 
 ---
 
