@@ -1,24 +1,14 @@
-﻿<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-     BANNER / COVER IMAGE ALANI
-     â†’ Buraya kendi gÃ¶rselini ekle:
-       <img width="100%" src="./banner.png" />
-     veya kendi URL'ini yapÄ±ÅŸtÄ±r.
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
-
+<!-- BANNER IMAGE AREA — replace ./banner.png with your own image -->
 <div align="center">
-  <img width="100%" src="./banner.png" alt="Kayra-ML Banner" />
+  <img width="100%" src="./banner.png" alt="Kayra Banner" />
 </div>
 
 <br/>
 
-<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
-     BAÅLIK & YAZIM ANÄ°MASYONU
-â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
-
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=650&height=55&lines=Hi+there%2C+I'm+Burak+%F0%9F%91%8B;Machine+Learning+%7C+Data+Science;Python+%2B+SQL+%2B+Deep+Learning;Building+things+with+data+%F0%9F%93%8A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=650&height=55&lines=Hey%2C+I'm+Kayra+%F0%9F%91%8B;Machine+Learning+%7C+Data+Science;Python+%7C+SQL+%7C+Deep+Learning;Building+things+with+data+%F0%9F%93%8A" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -27,7 +17,7 @@
 &nbsp;
 ![GitHub followers](https://img.shields.io/github/followers/Kayra-ML?style=flat-square&color=00ff41&labelColor=0d1117)
 &nbsp;
-![GitHub User's stars](https://img.shields.io/github/stars/Kayra-ML?style=flat-square&color=00ff41&labelColor=0d1117)
+![GitHub stars](https://img.shields.io/github/stars/Kayra-ML?style=flat-square&color=00ff41&labelColor=0d1117)
 
 </div>
 
@@ -36,23 +26,22 @@
 ## `whoami`
 
 ```python
-class Burak:
-    name        = "Burak"
+class Kayra:
     alias       = "Kayra-ML"
-    location    = "ğŸ‡¹ğŸ‡· TÃ¼rkiye"
-    role        = "Student Â· ML Enthusiast Â· Builder"
+    location    = "Turkey"
+    role        = "Student · ML Enthusiast · Builder"
 
     focus       = ["Machine Learning", "Data Science", "Deep Learning"]
     stack       = ["Python", "SQL", "Pandas", "Scikit-Learn", "TensorFlow"]
-    learning    = "Deep Learning Â· Model Deployment Â· Kaggle Competitions"
+    learning    = "Deep Learning · Model Deployment · Kaggle"
     building    = ["LifeOS", "Orchestra AI", "Zcore", "Qbeat Bot"]
 
-    quote       = "Verinin iÃ§indeki hikayeyi bul. ğŸ“Š"
+    quote       = "Find the story hidden in the data."
 ```
 
 ---
 
-## ğŸ› ï¸ Stack
+## Tech Stack
 
 <div align="center">
 
@@ -81,11 +70,11 @@ class Burak:
 
 ---
 
-## ğŸ“Š GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-<img height="170px" src="https://github-readme-stats.vercel.app/api?username=Kayra-ML&show_icons=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=21262d&hide_border=false&include_all_commits=true&count_private=true" />
+<img height="170px" src="https://github-readme-stats.vercel.app/api?username=Kayra-ML&show_icons=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=21262d&include_all_commits=true&count_private=true" />
 &nbsp;
 <img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayra-ML&layout=compact&langs_count=6&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=21262d" />
 
@@ -97,45 +86,45 @@ class Burak:
 
 ---
 
-## ğŸ Contribution Snake
+## Contribution Snake
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake.svg" />
+  <img alt="github snake" src="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake.svg" />
 </picture>
 
 </div>
 
 ---
 
-## ğŸš€ Projelerim / Projects
+## Projects
 
-| Proje | AÃ§Ä±klama | Stack |
-|:------|:---------|:------|
-| **[LifeOS](https://github.com/Kayra-ML/LifeOS)** | Notion tabanlÄ± kiÅŸisel yaÅŸam OS'i â€” web + mobil + API | FastAPI Â· Flutter Â· PWA |
-| **[Orchestra AI](https://github.com/Kayra-ML/QuantumAi)** | Multi-agent AI orkestrasyon platformu + RAG chatbot | LangChain Â· Ollama Â· ChromaDB |
-| **[Zcore](https://github.com/Kayra-ML/Zcore)** | MasaÃ¼stÃ¼ + web kontrol paneli (Electron + Next.js) | Electron Â· React 19 Â· Prisma |
-| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Discord cluster mÃ¼zik botu â€” Ã§oklu sunucu desteÄŸi | discord.py Â· Docker Â· asyncio |
-| **[F1 Analysis](https://github.com/Kayra-ML/f1DataAnalysis)** | Formula 1 bÃ¼yÃ¼k veri analiz platformu | FastAPI Â· PostgreSQL Â· React |
-
----
-
-## ğŸ¯ 2025â€“2026 Hedefleri
-
-```
-â”œâ”€â”€ ğŸ§   Deep Learning modellerini sÄ±fÄ±rdan implement et
-â”œâ”€â”€ ğŸ“Š  Kaggle'da aktif rekabet et ve medal al
-â”œâ”€â”€ ğŸš€  Orchestra AI MVP'yi yayÄ±na al
-â”œâ”€â”€ ğŸ—„ï¸  SQL optimizasyonu ve bÃ¼yÃ¼k veri pipeline'Ä± kur
-â””â”€â”€ ğŸ“¦  Ä°lk Python kÃ¼tÃ¼phanesini PyPI'a yayÄ±nla
-```
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| **[LifeOS](https://github.com/Kayra-ML/LifeOS)** | Notion-powered personal life OS — web + mobile + API | FastAPI · Flutter · PWA |
+| **[Orchestra AI](https://github.com/Kayra-ML/QuantumAi)** | Multi-agent AI orchestration platform + RAG chatbot | LangChain · Ollama · ChromaDB |
+| **[Zcore](https://github.com/Kayra-ML/Zcore)** | Desktop + web control panel (Electron + Next.js) | Electron · React 19 · Prisma |
+| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Discord cluster music bot — multi-server support | discord.py · Docker · asyncio |
+| **[F1 Analysis](https://github.com/Kayra-ML/f1DataAnalysis)** | Formula 1 big data analysis platform | FastAPI · PostgreSQL · React |
 
 ---
 
-## ğŸ“ˆ Activity Graph
+## 2025-2026 Goals
+
+```
+|- Deep Learning: implement models from scratch
+|- Kaggle: compete actively and earn medals
+|- Orchestra AI: ship the MVP
+|- SQL: large-scale data pipeline optimization
+|- Open Source: publish first Python package to PyPI
+```
+
+---
+
+## Activity Graph
 
 <div align="center">
 
@@ -147,10 +136,10 @@ class Burak:
 
 <div align="center">
 
-*"Data tells a story â€” you just have to listen."*
+*"Find the story hidden in the data."*
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/github-%40Lester--ML-0d1117?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Kayra-ML)
+[![GitHub](https://img.shields.io/badge/github-%40Kayra--ML-0d1117?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Kayra-ML)
 
 </div>
