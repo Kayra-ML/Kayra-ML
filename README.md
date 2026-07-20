@@ -27,16 +27,37 @@
 
 ```python
 class Kayra:
-    alias       = "Kayra-ML"
-    location    = "Turkey"
-    role        = "Student · ML Enthusiast · Builder"
+    alias        = "Kayra-ML"
+    status       = "University Student"
+    location     = "Turkey"
 
-    focus       = ["Machine Learning", "Data Science", "Deep Learning"]
-    stack       = ["Python", "SQL", "Pandas", "Scikit-Learn", "NumPy"]
-    learning    = ["Deep Learning", "TensorFlow", "Kaggle Competitions"]
-    building    = ["LifeOS", "Orchestra AI", "Zcore", "Qbeat Bot"]
+    # What I work on right now
+    current      = ["Data Science", "Machine Learning"]
 
-    quote       = "Find the story hidden in the data."
+    # Where I'm heading
+    next_up      = ["Deep Learning", "Scala"]
+
+    # Core stack
+    stack        = ["Python", "Pandas", "NumPy", "Scikit-Learn", "SQL"]
+
+    # How I think
+    mindset      = "Learn by building. Break things. Understand why."
+    quote        = "Find the story hidden in the data."
+
+    def about(self):
+        print("""
+        I'm a university student who fell in love with data.
+        Currently exploring Machine Learning and Data Science —
+        understanding how models learn, how data tells stories,
+        and how to turn raw numbers into real insight.
+
+        Next on my list: Deep Learning architectures and Scala
+        for large-scale data engineering.
+
+        I also build side projects to apply what I learn —
+        from Discord bots to AI orchestration platforms.
+        Everything here is a step in the journey.
+        """)
 ```
 
 ---
