@@ -1,19 +1,19 @@
-<!-- ═══════════════════════════════════════════════════════════
+﻿<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
      BANNER / COVER IMAGE ALANI
-     → Buraya kendi görselini ekle:
+     â†’ Buraya kendi gÃ¶rselini ekle:
        <img width="100%" src="./banner.png" />
-     veya kendi URL'ini yapıştır.
-════════════════════════════════════════════════════════════ -->
+     veya kendi URL'ini yapÄ±ÅŸtÄ±r.
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 
 <div align="center">
-  <img width="100%" src="./banner.png" alt="Lester-ML Banner" />
+  <img width="100%" src="./banner.png" alt="Kayra-ML Banner" />
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════
-     BAŞLIK & YAZIM ANİMASYONU
-════════════════════════════════════════════════════════════ -->
+<!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+     BAÅLIK & YAZIM ANÄ°MASYONU
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
 
 <div align="center">
 
@@ -23,11 +23,11 @@
 
 <br/><br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Lester-ML&color=00ff41&style=flat-square&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=Kayra-ML&color=00ff41&style=flat-square&label=Profile+Views)
 &nbsp;
-![GitHub followers](https://img.shields.io/github/followers/Lester-ML?style=flat-square&color=00ff41&labelColor=0d1117)
+![GitHub followers](https://img.shields.io/github/followers/Kayra-ML?style=flat-square&color=00ff41&labelColor=0d1117)
 &nbsp;
-![GitHub User's stars](https://img.shields.io/github/stars/Lester-ML?style=flat-square&color=00ff41&labelColor=0d1117)
+![GitHub User's stars](https://img.shields.io/github/stars/Kayra-ML?style=flat-square&color=00ff41&labelColor=0d1117)
 
 </div>
 
@@ -38,21 +38,21 @@
 ```python
 class Burak:
     name        = "Burak"
-    alias       = "Lester-ML"
-    location    = "🇹🇷 Türkiye"
-    role        = "Student · ML Enthusiast · Builder"
+    alias       = "Kayra-ML"
+    location    = "ğŸ‡¹ğŸ‡· TÃ¼rkiye"
+    role        = "Student Â· ML Enthusiast Â· Builder"
 
     focus       = ["Machine Learning", "Data Science", "Deep Learning"]
     stack       = ["Python", "SQL", "Pandas", "Scikit-Learn", "TensorFlow"]
-    learning    = "Deep Learning · Model Deployment · Kaggle Competitions"
+    learning    = "Deep Learning Â· Model Deployment Â· Kaggle Competitions"
     building    = ["LifeOS", "Orchestra AI", "Zcore", "Qbeat Bot"]
 
-    quote       = "Verinin içindeki hikayeyi bul. 📊"
+    quote       = "Verinin iÃ§indeki hikayeyi bul. ğŸ“Š"
 ```
 
 ---
 
-## 🛠️ Stack
+## ğŸ› ï¸ Stack
 
 <div align="center">
 
@@ -81,65 +81,65 @@ class Burak:
 
 ---
 
-## 📊 GitHub Stats
+## ğŸ“Š GitHub Stats
 
 <div align="center">
 
-<img height="170px" src="https://github-readme-stats.vercel.app/api?username=Lester-ML&show_icons=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=21262d&hide_border=false&include_all_commits=true&count_private=true" />
+<img height="170px" src="https://github-readme-stats.vercel.app/api?username=Kayra-ML&show_icons=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=21262d&hide_border=false&include_all_commits=true&count_private=true" />
 &nbsp;
-<img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lester-ML&layout=compact&langs_count=6&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=21262d" />
+<img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayra-ML&layout=compact&langs_count=6&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=21262d" />
 
 <br/><br/>
 
-<img width="70%" src="https://streak-stats.demolab.com?user=Lester-ML&theme=dark&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=555555&border=21262d" />
+<img width="70%" src="https://streak-stats.demolab.com?user=Kayra-ML&theme=dark&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=555555&border=21262d" />
 
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## ğŸ Contribution Snake
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lester-ML/Lester-ML/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lester-ML/Lester-ML/output/github-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Lester-ML/Lester-ML/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake.svg" />
 </picture>
 
 </div>
 
 ---
 
-## 🚀 Projelerim / Projects
+## ğŸš€ Projelerim / Projects
 
-| Proje | Açıklama | Stack |
+| Proje | AÃ§Ä±klama | Stack |
 |:------|:---------|:------|
-| **[LifeOS](https://github.com/Lester-ML/LifeOS)** | Notion tabanlı kişisel yaşam OS'i — web + mobil + API | FastAPI · Flutter · PWA |
-| **[Orchestra AI](https://github.com/Lester-ML/QuantumAi)** | Multi-agent AI orkestrasyon platformu + RAG chatbot | LangChain · Ollama · ChromaDB |
-| **[Zcore](https://github.com/Lester-ML/Zcore)** | Masaüstü + web kontrol paneli (Electron + Next.js) | Electron · React 19 · Prisma |
-| **[Qbeat](https://github.com/Lester-ML/Qbeat)** | Discord cluster müzik botu — çoklu sunucu desteği | discord.py · Docker · asyncio |
-| **[F1 Analysis](https://github.com/Lester-ML/f1DataAnalysis)** | Formula 1 büyük veri analiz platformu | FastAPI · PostgreSQL · React |
+| **[LifeOS](https://github.com/Kayra-ML/LifeOS)** | Notion tabanlÄ± kiÅŸisel yaÅŸam OS'i â€” web + mobil + API | FastAPI Â· Flutter Â· PWA |
+| **[Orchestra AI](https://github.com/Kayra-ML/QuantumAi)** | Multi-agent AI orkestrasyon platformu + RAG chatbot | LangChain Â· Ollama Â· ChromaDB |
+| **[Zcore](https://github.com/Kayra-ML/Zcore)** | MasaÃ¼stÃ¼ + web kontrol paneli (Electron + Next.js) | Electron Â· React 19 Â· Prisma |
+| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Discord cluster mÃ¼zik botu â€” Ã§oklu sunucu desteÄŸi | discord.py Â· Docker Â· asyncio |
+| **[F1 Analysis](https://github.com/Kayra-ML/f1DataAnalysis)** | Formula 1 bÃ¼yÃ¼k veri analiz platformu | FastAPI Â· PostgreSQL Â· React |
 
 ---
 
-## 🎯 2025–2026 Hedefleri
+## ğŸ¯ 2025â€“2026 Hedefleri
 
 ```
-├── 🧠  Deep Learning modellerini sıfırdan implement et
-├── 📊  Kaggle'da aktif rekabet et ve medal al
-├── 🚀  Orchestra AI MVP'yi yayına al
-├── 🗄️  SQL optimizasyonu ve büyük veri pipeline'ı kur
-└── 📦  İlk Python kütüphanesini PyPI'a yayınla
+â”œâ”€â”€ ğŸ§   Deep Learning modellerini sÄ±fÄ±rdan implement et
+â”œâ”€â”€ ğŸ“Š  Kaggle'da aktif rekabet et ve medal al
+â”œâ”€â”€ ğŸš€  Orchestra AI MVP'yi yayÄ±na al
+â”œâ”€â”€ ğŸ—„ï¸  SQL optimizasyonu ve bÃ¼yÃ¼k veri pipeline'Ä± kur
+â””â”€â”€ ğŸ“¦  Ä°lk Python kÃ¼tÃ¼phanesini PyPI'a yayÄ±nla
 ```
 
 ---
 
-## 📈 Activity Graph
+## ğŸ“ˆ Activity Graph
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Lester-ML&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=003300&hide_border=false&border_color=21262d&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kayra-ML&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=003300&hide_border=false&border_color=21262d&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
@@ -147,10 +147,10 @@ class Burak:
 
 <div align="center">
 
-*"Data tells a story — you just have to listen."*
+*"Data tells a story â€” you just have to listen."*
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/github-%40Lester--ML-0d1117?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Lester-ML)
+[![GitHub](https://img.shields.io/badge/github-%40Lester--ML-0d1117?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Kayra-ML)
 
 </div>
