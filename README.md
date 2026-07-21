@@ -62,46 +62,19 @@ I'm a university student who fell in love with data. I spend most of my time exp
 
 ![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00ff41)
 ![MS SQL Server](https://img.shields.io/badge/MS%20SQL-0d1117?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ff41)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41)
+
 
 **Future / Next Targets**
 
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-0d1117?style=for-the-badge&logo=keras&logoColor=ffa500)
 ![Scala](https://img.shields.io/badge/Scala-0d1117?style=for-the-badge&logo=scala&logoColor=ffa500)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41)
 
 </div>
 
 ---
 
-## GitHub Stats
 
-<div align="center">
-
-<img height="170px" src="https://github-readme-stats.vercel.app/api?username=Kayra-ML&show_icons=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=21262d&include_all_commits=true&count_private=true" />
-&nbsp;
-<img height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayra-ML&layout=compact&langs_count=6&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=21262d" />
-
-<br/><br/>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=Kayra-ML&theme=dark&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=555555&border=21262d" />
-
-</div>
-
----
-
-## Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake.svg" />
-  <img alt="github snake" src="https://raw.githubusercontent.com/Kayra-ML/Kayra-ML/output/github-snake.svg" />
-</picture>
-
-</div>
-
----
 
 ## Projects
 
