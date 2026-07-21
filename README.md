@@ -29,42 +29,18 @@
 
 ---
 
-## `whoami`
+## 👨‍💻 Hakkımda (About Me)
 
-```python
-class Kayra:
-    alias        = "Kayra-ML"
-    status       = "University Student"
-    location     = "Turkey"
+I'm a university student who fell in love with data. I spend most of my time exploring Machine Learning and Data Science — understanding how models learn, how data tells stories, and how to turn raw numbers into real insight.
 
-    # What I work on right now
-    current      = ["Data Science", "Machine Learning"]
+**Mindset:** *Learn by building. Break things. Understand why.*
 
-    # Where I'm heading
-    next_up      = ["Deep Learning", "Scala"]
+**Quote:** *Find the story hidden in the data.*
 
-    # Core stack
-    stack        = ["Python", "Pandas", "NumPy", "Scikit-Learn", "SQL"]
+## 📬 İletişim (Contact)
 
-    # How I think
-    mindset      = "Learn by building. Break things. Understand why."
-    quote        = "Find the story hidden in the data."
-
-    def about(self):
-        print("""
-        I'm a university student who fell in love with data.
-        Currently exploring Machine Learning and Data Science —
-        understanding how models learn, how data tells stories,
-        and how to turn raw numbers into real insight.
-
-        Next on my list: Deep Learning architectures and Scala
-        for large-scale data engineering.
-
-        I also build side projects to apply what I learn —
-        from Discord bots to AI orchestration platforms.
-        Everything here is a step in the journey.
-        """)
-```
+- 📧 **Email:** [byildiz.codes@gmail.com](mailto:byildiz.codes@gmail.com)
+- 🌐 **Portfolio:** [kayra-ml.github.io](https://kayra-ml.github.io)
 
 ---
 
