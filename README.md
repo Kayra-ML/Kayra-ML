@@ -79,22 +79,19 @@ class Kayra:
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=00ff41)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=00ff41)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
-![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=jupyter&logoColor=00ff41)
+![Seaborn](https://img.shields.io/badge/Seaborn-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-0d1117?style=for-the-badge&logo=scipy&logoColor=00ff41)
 
-**Database**
+**Databases & Tools**
 
-![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00ff41)
-![SQLite](https://img.shields.io/badge/SQLite-0d1117?style=for-the-badge&logo=sqlite&logoColor=00ff41)
+![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00ff41)
+![MS SQL Server](https://img.shields.io/badge/MS%20SQL-0d1117?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ff41)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41)
 
-**Tools**
+**Future / Next Targets**
 
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=00ff41)
-![VS Code](https://img.shields.io/badge/VS%20Code-0d1117?style=for-the-badge&logo=visual-studio-code&logoColor=00ff41)
-
-**Currently Learning**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=for-the-badge&logo=tensorflow&logoColor=ffa500)
-![Kaggle](https://img.shields.io/badge/Kaggle-0d1117?style=for-the-badge&logo=kaggle&logoColor=ffa500)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-0d1117?style=for-the-badge&logo=keras&logoColor=ffa500)
+![Scala](https://img.shields.io/badge/Scala-0d1117?style=for-the-badge&logo=scala&logoColor=ffa500)
 
 </div>
 
