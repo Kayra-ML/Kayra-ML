@@ -85,7 +85,7 @@ I'm a university student who fell in love with data. I spend most of my time exp
 | **[Zcore](https://github.com/Kayra-ML/zcore)** | Desktop + web control panel (Electron + Next.js) | Electron · React 19 · Prisma |
 | **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Discord cluster music bot — multi-server support | discord.py · Docker · asyncio |
 | **[F1 Analysis](https://github.com/Kayra-ML/fast_f1_data)** | Formula 1 big data analysis platform | FastAPI · PostgreSQL · React |
-
+| **[https://github.com/Kayra-ML/Zlife)** |AI-powered personal life management system | FastAPI · Python · AI|
 ---
 
 ## 2025-2026 Goals
