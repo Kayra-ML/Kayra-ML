@@ -103,21 +103,21 @@ I'm a university student who fell in love with data. I spend most of my time exp
 ## Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=KAYRA-ML&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub stats"/>
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KAYRA-ML&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=E5E7EB" alt="Top languages"/>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=KAYRA-ML&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=39FF14&icon_color=39FF14&text_color=E5E7EB" alt="GitHub stats"/>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KAYRA-ML&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=39FF14&text_color=E5E7EB" alt="Top languages"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=KAYRA-ML&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=KAYRA-ML&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KAYRA-ML&theme=tokyonight" alt="Profile details"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KAYRA-ML&theme=tokyonight" alt="Productive time"/>
 </div>
+
 ---
 
-<div align="center">
 
 *"Find the story hidden in the data."*
 
