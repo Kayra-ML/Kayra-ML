@@ -104,7 +104,7 @@ I'm a university student who fell in love with data. I spend most of my time exp
 
 <div align="center">
   <img src="https://github-readme-stats-one-bice.vercel.app/api?username=KAYRA-ML&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=39FF14&icon_color=39FF14&text_color=E5E7EB" alt="GitHub stats"/>
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KAYRA-ML&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=39FF14&text_color=E5E7EB" alt="Top languages"/>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KAYRA-ML&layout=compact&theme=tokyonight&hide_border=true&bg_color=39FF14&title_color=39FF14&text_color=39FF14" alt="Top languages"/>
 </div>
 
 
