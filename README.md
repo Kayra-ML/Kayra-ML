@@ -112,7 +112,7 @@ I'm a university student who fell in love with data. I spend most of my time exp
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KAYRA-ML&theme=tokyonight" alt="Profile details"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KAYRA-ML&theme=tokyonight" alt="Productive time"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KRA-ML&theme=tokyonight" alt="Productive time"/>
 </div>
 
 ---
