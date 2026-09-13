@@ -103,11 +103,18 @@ I'm a university student who fell in love with data. I spend most of my time exp
 ## Activity Graph
 
 <div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Kayra-ML&bg_color=0d1117&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=003300&hide_border=false&border_color=21262d&radius=6)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=KAYRA-ML&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub stats"/>
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=KAYRA-ML&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=A78BFA&text_color=E5E7EB" alt="Top languages"/>
 </div>
 
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=KAYRA-ML&theme=tokyonight&hide_border=true&background=0D0D0D&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KAYRA-ML&theme=tokyonight" alt="Profile details"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=KAYRA-ML&theme=tokyonight" alt="Productive time"/>
+</div>
 ---
 
 <div align="center">
