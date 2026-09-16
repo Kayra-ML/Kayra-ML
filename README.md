@@ -27,21 +27,17 @@
 
 ---
 
-### ⚡ Hakkımda (About Me)
+## ⚡ `whoami`
 
-Merhaba, ben **Kayra**. Bilgisayar bilimleri ve yazılım dünyasında "hızlıca bir şeyler kopyalayıp geçmek" yerine işin mantığını, mimarisini ve temellerini anlayarak ilerleyen bir geliştiriciyim.
-
-- 🧠 **Makine Öğrenmesi Yolculuğum:**  
-  Yapay zeka ve makine öğrenmesi dünyasına aceleci ve yüzeysel bir yaklaşımla değil; verinin nasıl işlendiğini, modellerin matematiksel arka planını ve istatistiksel çıkarımları adım adım özümseyerek devam ediyorum. **NumPy** ve **Pandas** ile veri manipülasyonu, **Matplotlib/Seaborn** ile veri görselleştirme ve **Scikit-learn** ile klasik makine öğrenmesi algoritmaları (regresyon, sınıflandırma, kümeleme) üzerinde aktif projeler üretiyorum.
-  
-- ⚙️ **Sistem ve Algoritma Temeli (C++):**  
-  Yaklaşık **3-4 yıldır C++** ile ilgileniyorum. Bellek yönetimi (pointers/references), nesne yönelimli programlama, algoritmik düşünce ve düşük seviyeli sistem yapısı konularındaki bu tecrübem; veri bilimi kütüphanelerinin arka planda nasıl çalıştığını ve yüksek performanslı kod yazmanın değerini anlamamda en büyük avantajım.
-
-- 🤖 **Yapay Zeka Destekli Mühendislik (AI-Augmented Engineering):**  
-  Python ve C++ tarafında algoritma ve model geliştirirken; **Python dışındaki web, mobil ve otomasyon projelerimin çoğunu modern AI araçları ve ajanlarını (LLM/AI Pair-Programming) bir mühendislik çarpanı olarak kullanarak geliştirdim**. Kodu sadece tüketmek yerine yapay zekayı bir asistan mimar olarak yönlendirip çok yönlü sistemler tasarlıyorum.
-
-- 🎯 **Felsefem:**  
-  *Temeli sağlam tut, ezbere değil algoritmaya güven, doğru araçları kaldıracın yap.*
+```python
+class Kayra:
+    focus       = "Makine öğrenimi ile ilgileniyorum 🧠"
+    cpp_exp     = "3-4 yıllık C++ temeli (algoritma & bellek yönetimi) ⚙️"
+    stack       = ["Python", "NumPy", "Pandas", "Matplotlib", "Scikit-Learn", "MySQL"]
+    workflow    = "Python dışı projelerimin çoğunu AI ile geliştirdim 🤖"
+    roadmap     = ["Deep Learning", "PyTorch", "MLOps", "Kaggle"]
+    quote       = "Verinin içindeki hikayeyi keşfet 📊"
+```
 
 ---
 
@@ -49,7 +45,7 @@ Merhaba, ben **Kayra**. Bilgisayar bilimleri ve yazılım dünyasında "hızlıc
 
 <div align="center">
 
-#### 🐍 Data Science & Machine Learning (Odak Alanım)
+#### 🐍 Data Science & Machine Learning
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
 ![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=00ff41)
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=00ff41)
@@ -77,9 +73,9 @@ Merhaba, ben **Kayra**. Bilgisayar bilimleri ve yazılım dünyasında "hızlıc
 
 ---
 
-### 🗺️ Öğrenme Yol Haritam (Future Learning Roadmap)
+### 🗺️ Öğrenme Yol Haritam (Future Roadmap)
 
-Mevcut temellerimin üzerine inşa etmeye devam ettiğim ve profilimde adım adım ilerleyişini paylaşacağım yeni hedeflerim:
+Mevcut temellerimin üzerine inşa etmeye devam ettiğim hedeflerim:
 
 ```text
 ├── 🧠 Derin Öğrenme (Deep Learning)
@@ -96,16 +92,6 @@ Mevcut temellerimin üzerine inşa etmeye devam ettiğim ve profilimde adım ad�
     ├── Kaggle veri setleri üzerinde analitik yarışmalar
     └── Uçtan uca gerçek hayat makine öğrenmesi projeleri
 ```
-
----
-
-### 💡 Mühendislik Yaklaşımım: AI Kaldıracı
-
-> *"Teknoloji dünyasında en değerli beceri, sadece kod yazmak değil; doğru aracı doğru yerde en verimli şekilde kullanabilmektir."*
-
-Projelerimde iki temel prensip doğrultusunda hareket ediyorum:
-1. **Çekirdek Bilim ve Algoritma:** Makine öğrenmesi modelleri, veri ön işleme, matematiksel mantık ve C++ gibi performans gerektiren temel konuları bizzat derinlemesine yazıp öğreniyorum.
-2. **AI ile Hızlı Prototipleme:** Web arayüzleri, mobil uygulamalar, Discord botları veya kontrol panelleri gibi Python dışındaki ekosistemlerde yapay zekayı (AI Agents / Code Assistants) bir güç çarpanı olarak kullanıyor; mimari tasarımı yönlendirerek fikirleri çok hızlı çalışan ürünlere dönüştürüyorum.
 
 ---
 
