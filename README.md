@@ -1,112 +1,147 @@
 <div align="center">
 
-  <!-- FOTOĞRAF ALANI (Buraya kendi yuvarlak profil fotoğrafını koyabilirsin) -->
-  <img src="https://github.com/Kayra-ML.png" width="160" height="160" style="border-radius: 50%; border: 2px solid #00ff41;" alt="Kayra-ML" />
+  <!-- AVATAR WITH NEON EMERALD BORDER -->
+  <img src="https://github.com/Kayra-ML.png" width="150" height="150" style="border-radius: 50%; border: 3px solid #00FF41; box-shadow: 0 0 15px rgba(0, 255, 65, 0.4);" alt="Kayra-ML Profile" />
 
-  <h1>Kayra ML</h1>
-  <p><i>That's me.</i></p>
+  <br/><br/>
 
-  <!-- YEŞİL HELLO BUTONU -->
-  <a href="#">
-    <img src="https://img.shields.io/badge/HELLO_THERE!-00FF41?style=for-the-badge&logoColor=black&labelColor=0d1117" alt="Hello" />
+  <h1><span style="color: #00FF41;">&gt;</span> Kayra ML</h1>
+
+  <!-- TYPING SVG - SMOOTH, DARK & EMERALD -->
+  <a href="https://github.com/Kayra-ML">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=1100&color=00FF41&background=0D111700&center=true&vCenter=true&width=620&height=48&lines=Machine+Learning+Explorer+%26+Builder;3%2B+Years+C%2B%2B+Foundation+%7C+Python+Ecosystem;NumPy+%E2%80%A2+Pandas+%E2%80%A2+Scikit-Learn+%E2%80%A2+SQL;AI-Augmented+Software+Engineering" alt="Typing SVG" />
   </a>
 
-<br/><br/>
+  <p style="color: #8b949e; font-size: 15px; max-width: 600px; margin-top: 6px;">
+    <i>"Gelişimi anlık heveslerde değil; algoritmalarda, matematikte ve verinin derinliklerinde arayan bir yolculuk."</i>
+  </p>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=1000&color=00FF41&center=true&vCenter=true&width=650&height=55&lines=Machine+Learning+%7C+Data+Science;Python+%7C+SQL+%7C+Deep+Learning;Building+things+with+data+%F0%9F%93%8A" alt="Typing SVG" />
-</a>
-
-<br/><br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Kayra-ML&color=00ff41&style=flat-square&label=Profile+Views)
-&nbsp;
-![GitHub followers](https://img.shields.io/github/followers/Kayra-ML?style=flat-square&color=00ff41&labelColor=0d1117)
-&nbsp;
-![GitHub stars](https://img.shields.io/github/stars/Kayra-ML?style=flat-square&color=00ff41&labelColor=0d1117)
+  <!-- METRIC BADGES -->
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=Kayra-ML&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="https://img.shields.io/github/followers/Kayra-ML?style=for-the-badge&color=00ff41&labelColor=0d1117&logo=github&logoColor=ffffff" alt="GitHub Followers" />
+    <img src="https://img.shields.io/badge/STATUS-LEARNING_%26_BUILDING-00FF41?style=for-the-badge&logoColor=black&labelColor=0d1117" alt="Status" />
+  </p>
 
 </div>
 
 ---
 
-## 👨‍💻 Hakkımda (About Me)
+### ⚡ Hakkımda (About Me)
 
-I'm a university student who fell in love with data. I spend most of my time exploring Machine Learning and Data Science — understanding how models learn, how data tells stories, and how to turn raw numbers into real insight.
+Merhaba, ben **Kayra**. Bilgisayar bilimleri ve yazılım dünyasında "hızlıca bir şeyler kopyalayıp geçmek" yerine işin mantığını, mimarisini ve temellerini anlayarak ilerleyen bir geliştiriciyim.
 
-**Mindset:** *Learn by building. Break things. Understand why.*
+- 🧠 **Makine Öğrenmesi Yolculuğum:**  
+  Yapay zeka ve makine öğrenmesi dünyasına aceleci ve yüzeysel bir yaklaşımla değil; verinin nasıl işlendiğini, modellerin matematiksel arka planını ve istatistiksel çıkarımları adım adım özümseyerek devam ediyorum. **NumPy** ve **Pandas** ile veri manipülasyonu, **Matplotlib/Seaborn** ile veri görselleştirme ve **Scikit-learn** ile klasik makine öğrenmesi algoritmaları (regresyon, sınıflandırma, kümeleme) üzerinde aktif projeler üretiyorum.
+  
+- ⚙️ **Sistem ve Algoritma Temeli (C++):**  
+  Yaklaşık **3-4 yıldır C++** ile ilgileniyorum. Bellek yönetimi (pointers/references), nesne yönelimli programlama, algoritmik düşünce ve düşük seviyeli sistem yapısı konularındaki bu tecrübem; veri bilimi kütüphanelerinin arka planda nasıl çalıştığını ve yüksek performanslı kod yazmanın değerini anlamamda en büyük avantajım.
 
-**Quote:** *Find the story hidden in the data.*
+- 🤖 **Yapay Zeka Destekli Mühendislik (AI-Augmented Engineering):**  
+  Python ve C++ tarafında algoritma ve model geliştirirken; **Python dışındaki web, mobil ve otomasyon projelerimin çoğunu modern AI araçları ve ajanlarını (LLM/AI Pair-Programming) bir mühendislik çarpanı olarak kullanarak geliştirdim**. Kodu sadece tüketmek yerine yapay zekayı bir asistan mimar olarak yönlendirip çok yönlü sistemler tasarlıyorum.
 
-## 📬 İletişim (Contact)
-
-- 📧 **Email:** [byildiz.codes@gmail.com](mailto:byildiz.codes@gmail.com)
-- 🌐 **Portfolio:** [kayra-ml.github.io](https://kayra-ml.github.io)
+- 🎯 **Felsefem:**  
+  *Temeli sağlam tut, ezbere değil algoritmaya güven, doğru araçları kaldıracın yap.*
 
 ---
 
-## Tech Stack
+### 🛠️ Yetkinlikler & Araçlar (Tech Stack)
 
 <div align="center">
 
-**Python & Data Science**
-
+#### 🐍 Data Science & Machine Learning (Odak Alanım)
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
 ![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=00ff41)
 ![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=00ff41)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=00ff41)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=00ff41)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-0d1117?style=for-the-badge&logo=scipy&logoColor=00ff41)
+![Jupyter](https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&logo=jupyter&logoColor=00ff41)
 
-**Databases & Tools**
-
+#### 💻 Sistem, Algoritma & Veritabanı
+![C++](https://img.shields.io/badge/C++_(3--4_Years)-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00ff41)
+![C](https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=00ff41)
 ![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00ff41)
-![MS SQL Server](https://img.shields.io/badge/MS%20SQL-0d1117?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ff41)
+![MS SQL](https://img.shields.io/badge/MS%20SQL%20Server-0d1117?style=for-the-badge&logo=microsoftsqlserver&logoColor=00ff41)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00ff41)
 
-
-**Future / Next Targets**
-
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-0d1117?style=for-the-badge&logo=keras&logoColor=ffa500)
-![Scala](https://img.shields.io/badge/Scala-0d1117?style=for-the-badge&logo=scala&logoColor=ffa500)
+#### 🚀 AI Destekli Geliştirme & Altyapı (Full-Stack & Tools)
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=00ff41)
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=00ff41)
+![Electron](https://img.shields.io/badge/Electron-0d1117?style=for-the-badge&logo=electron&logoColor=00ff41)
+![Flutter](https://img.shields.io/badge/Flutter-0d1117?style=for-the-badge&logo=flutter&logoColor=00ff41)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41)
+![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=00ff41)
 
 </div>
 
 ---
 
+### 🗺️ Öğrenme Yol Haritam (Future Learning Roadmap)
 
+Mevcut temellerimin üzerine inşa etmeye devam ettiğim ve profilimde adım adım ilerleyişini paylaşacağım yeni hedeflerim:
 
-## Projects
-
-| Project | Description | Stack |
-|:--------|:------------|:------|
-| **[LifeOS](https://github.com/Kayra-ML/L-feOS)** | Notion-powered personal life OS — web + mobile + API | FastAPI · Flutter · PWA |
-| **[Thomas](https://github.com/Kayra-ML/thomas)** | Automated Discord registration bot | Node.js · Discord.js · Railway |
-| **[Zcore](https://github.com/Kayra-ML/zcore)** | Desktop + web control panel (Electron + Next.js) | Electron · React 19 · Prisma |
-| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Discord cluster music bot — multi-server support | discord.py · Docker · asyncio |
-| **[F1 Analysis](https://github.com/Kayra-ML/fast_f1_data)** | Formula 1 big data analysis platform | FastAPI · PostgreSQL · React |
-| **[Zlife](https://github.com/Kayra-ML/Zlife)** |AI-powered personal life management system | FastAPI · Python · AI|
----
-
-## 2025-2026 Goals
-
-```
-|- Deep Learning: implement models from scratch
-|- Kaggle: compete actively and earn medals
-|- Orchestra AI: ship the MVP
-|- SQL: large-scale data pipeline optimization
-|- Open Source: publish first Python package to PyPI
+```text
+├── 🧠 Derin Öğrenme (Deep Learning)
+│   ├── Neural Networks from scratch (Temeller ve Matematiksel Mantık)
+│   ├── PyTorch ekosistemine geçiş ve model mimarileri
+│   └── Computer Vision (CV) & Doğal Dil İşleme (NLP)
+│
+├── 📊 Veri & Model Mühendisliği (MLOps & Scale)
+│   ├── Model Deployment (FastAPI + Docker + ONNX Runtime)
+│   ├── Veri Hatları (Pipelines) ve Veri Temizleme Otomasyonları
+│   └── Büyük Veri Altyapıları (Büyük ölçekli SQL & Spark)
+│
+└── 🏆 Pratik & Yarışmalar
+    ├── Kaggle veri setleri üzerinde analitik yarışmalar
+    └── Uçtan uca gerçek hayat makine öğrenmesi projeleri
 ```
 
 ---
 
+### 💡 Mühendislik Yaklaşımım: AI Kaldıracı
 
+> *"Teknoloji dünyasında en değerli beceri, sadece kod yazmak değil; doğru aracı doğru yerde en verimli şekilde kullanabilmektir."*
 
+Projelerimde iki temel prensip doğrultusunda hareket ediyorum:
+1. **Çekirdek Bilim ve Algoritma:** Makine öğrenmesi modelleri, veri ön işleme, matematiksel mantık ve C++ gibi performans gerektiren temel konuları bizzat derinlemesine yazıp öğreniyorum.
+2. **AI ile Hızlı Prototipleme:** Web arayüzleri, mobil uygulamalar, Discord botları veya kontrol panelleri gibi Python dışındaki ekosistemlerde yapay zekayı (AI Agents / Code Assistants) bir güç çarpanı olarak kullanıyor; mimari tasarımı yönlendirerek fikirleri çok hızlı çalışan ürünlere dönüştürüyorum.
 
-*"Find the story hidden in the data."*
+---
+
+### 📂 Öne Çıkan Projeler (Featured Projects)
+
+| Proje | Açıklama | Teknoloji / Yaklaşım |
+|:------|:---------|:---------------------|
+| **[LifeOS](https://github.com/Kayra-ML/L-feOS)** | Notion entegrasyonlu kişisel yaşam yönetim ekosistemi (Web + Mobil + API). | FastAPI · Flutter · AI-Assisted Prototyping |
+| **[F1 Analysis](https://github.com/Kayra-ML/fast_f1_data)** | Formula 1 yarış verileri analitiği ve telemetri görselleştirme platformu. | Python · Pandas · FastAPI · PostgreSQL |
+| **[Zlife](https://github.com/Kayra-ML/Zlife)** | Akıllı kişisel organizasyon ve veri takip sistemi. | Python · FastAPI · AI Workflows |
+| **[Zcore](https://github.com/Kayra-ML/zcore)** | Masaüstü ve web tabanlı modern kontrol merkezi paneli. | Electron · React 19 · Prisma · AI-Driven |
+| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Çoklu sunucu destekli Discord müzik bot kümesi. | discord.py · Docker · Asyncio |
+| **[Thomas](https://github.com/Kayra-ML/thomas)** | Otomatik kullanıcı doğrulama ve rol yönetim botu. | Node.js · Discord.js · Railway |
+
+---
+
+### 📈 GitHub İstatistikleri (Activity & Streak)
+
+<div align="center">
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kayra-ML&background=0D1117&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00FF41&sideLabels=00FF41&dates=8B949E" alt="GitHub Streak" width="85%" />
+
+</div>
+
+---
+
+### 📬 İletişim & Bağlantı (Connect With Me)
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-byildiz.codes%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41)](mailto:byildiz.codes@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kayra--ml.github.io-0d1117?style=for-the-badge&logo=googlechrome&logoColor=00ff41)](https://kayra-ml.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-%40Kayra--ML-0d1117?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Kayra-ML)
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/github-%40Kayra--ML-0d1117?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Kayra-ML)
+<sub>*"Verinin içindeki gizli hikayeyi keşfet, algoritmalarınla geleceği inşa et."*</sub>
 
 </div>
