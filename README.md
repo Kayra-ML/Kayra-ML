@@ -81,16 +81,14 @@ What I am focusing on next:
 
 ---
 
-### 📂 Projects
+### 📂 Featured Projects
 
-| Project | Description | Stack / Approach |
-|:--------|:------------|:-----------------|
-| **[F1 Analysis](https://github.com/Kayra-ML/fast_f1_data)** | Formula 1 telemetry and race data analysis platform. | Python · Pandas · Data Visualization |
-| **[LifeOS](https://github.com/Kayra-ML/L-feOS)** | Notion-integrated personal life organization system. | FastAPI · Flutter · Built with AI |
-| **[Zlife](https://github.com/Kayra-ML/Zlife)** | Personal task tracking and organization tool. | Python · FastAPI · Built with AI |
-| **[Zcore](https://github.com/Kayra-ML/zcore)** | Desktop and web dashboard interface. | Electron · React · Built with AI |
-| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Multi-server Discord music bot cluster. | discord.py · Asyncio · Docker |
-| **[Thomas](https://github.com/Kayra-ML/thomas)** | Automated Discord user verification and role bot. | Node.js · Discord.js · Built with AI |
+| Project | Description | Stack / Architecture |
+|:--------|:------------|:---------------------|
+| **[ModelAudit](https://github.com/Kayra-ML/ModelAudit)** | Open-source framework for LLM identity forensics, persona detection, and AI transparency verification. | Python · LLM Forensics · Prompt Evaluation |
+| **[RoveCode Plugins](https://github.com/Kayra-ML/RoveCode_plugins)** | Token-efficient, domain-aware MCP server with a deterministic router across 11 plugins & 72 skills. | MCP Server · TypeScript · Built with AI |
+| **[F1 Data Analysis](https://github.com/Kayra-ML/fast_f1_data)** | Formula 1 analytics platform processing telemetry, lap times, and race strategies with RAM-efficient SQL. | Python · FastAPI · PostgreSQL · React |
+| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Multi-instance Discord music bot cluster using an orchestrator & worker architecture for zero lag. | Python · discord.py · Asyncio · Docker |
 
 ---
 
