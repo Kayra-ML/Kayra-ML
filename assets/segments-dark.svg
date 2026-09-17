@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 352" width="1200" height="352" role="img" aria-label="Every public project as a segment on one time axis, from the day its repository was created to its last push.">
+<rect width="1200" height="352" fill="#0d1117"/>
+<rect x="20.5" y="20.5" width="1159" height="311" fill="none" stroke="#21262d"/>
+<text x="56" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.6" letter-spacing="1.4">SEGMENTS · ONE ROW PER REPOSITORY · CREATED → LAST PUSH</text>
+<line x1="240" y1="60" x2="240" y2="342" stroke="#21262d" stroke-width="1"/>
+<text x="243" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Jun 2026</text>
+<line x1="464" y1="60" x2="464" y2="342" stroke="#21262d" stroke-width="1"/>
+<text x="467" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Jul 2026</text>
+<line x1="695" y1="60" x2="695" y2="342" stroke="#21262d" stroke-width="1"/>
+<text x="698" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Aug 2026</text>
+<line x1="927" y1="60" x2="927" y2="342" stroke="#21262d" stroke-width="1"/>
+<text x="930" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Sep 2026</text>
+<line x1="1151" y1="60" x2="1151" y2="342" stroke="#21262d" stroke-width="1"/>
+<text x="1154" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Oct 2026</text>
+<text x="232" y="91" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">thomas</text>
+<rect x="426" y="80" width="620" height="12" fill="#f0db4f" opacity="0.75" rx="2"/>
+<text x="1052" y="91" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">JavaScript</text>
+<text x="232" y="119" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">zcore</text>
+<rect x="494" y="108" width="552" height="12" fill="#e34c26" opacity="0.75" rx="2"/>
+<text x="1052" y="119" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">HTML</text>
+<text x="232" y="147" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">Kayra-ML</text>
+<rect x="606" y="136" width="440" height="12" fill="#8b949e" opacity="0.75" rx="2"/>
+<text x="1052" y="147" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">—</text>
+<text x="232" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">ZscriptBot</text>
+<rect x="882" y="164" width="164" height="12" fill="#58a6ff" opacity="0.75" rx="2"/>
+<text x="1052" y="175" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">TypeScript</text>
+<text x="232" y="203" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">SearchForge_open</text>
+<rect x="889" y="192" width="157" height="12" fill="#f0db4f" opacity="0.75" rx="2"/>
+<text x="1052" y="203" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">JavaScript</text>
+<text x="232" y="231" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">ModelAudit</text>
+<rect x="897" y="220" width="149" height="12" fill="#00FF41" opacity="0.75" rx="2"/>
+<text x="1052" y="231" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Python</text>
+<text x="232" y="259" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">RoveCode_plugins</text>
+<rect x="897" y="248" width="149" height="12" fill="#58a6ff" opacity="0.75" rx="2"/>
+<text x="1052" y="259" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">TypeScript</text>
+<text x="232" y="287" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">KeyLingo</text>
+<rect x="1031" y="276" width="15" height="12" fill="#00FF41" opacity="0.75" rx="2"/>
+<text x="1052" y="287" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Python</text>
+<text x="232" y="315" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" text-anchor="end">Rove_cli</text>
+<rect x="1046" y="304" width="4" height="12" fill="#00ADD8" opacity="0.75" rx="2"/>
+<text x="1056" y="315" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">Go</text>
+</svg>
