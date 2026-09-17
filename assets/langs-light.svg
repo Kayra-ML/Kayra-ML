@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" role="img" aria-label="Languages as a memory map, sized by the bytes of source GitHub reports for each one.">
+<rect width="1200" height="200" fill="#0d1117"/>
+<rect x="20.5" y="20.5" width="1159" height="159" fill="none" stroke="#21262d"/>
+<text x="56" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.6" letter-spacing="1.4">MEMORY MAP · SIZED BY BYTES OF SOURCE GITHUB REPORTS</text>
+<text x="56" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e">0x0000</text>
+<text x="1144" y="72" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e" text-anchor="end">0xFFFF</text>
+<rect x="56" y="80" width="565" height="48" fill="#00FF41" opacity="0.8"/>
+<rect x="56" y="80" width="1" height="48" fill="#0d1117"/>
+<text x="338" y="144" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" text-anchor="middle">Python</text>
+<text x="338" y="156" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e" text-anchor="middle">52%</text>
+<rect x="621" y="80" width="239" height="48" fill="#58a6ff" opacity="0.8"/>
+<rect x="621" y="80" width="1" height="48" fill="#0d1117"/>
+<text x="740" y="144" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#58a6ff" text-anchor="middle">TypeScript</text>
+<text x="740" y="156" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e" text-anchor="middle">22%</text>
+<rect x="860" y="80" width="130" height="48" fill="#f0db4f" opacity="0.8"/>
+<rect x="860" y="80" width="1" height="48" fill="#0d1117"/>
+<text x="925" y="144" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#f0db4f" text-anchor="middle">JavaScript</text>
+<text x="925" y="156" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#8b949e" text-anchor="middle">12%</text>
+<rect x="990" y="80" width="87" height="48" fill="#e34c26" opacity="0.8"/>
+<rect x="990" y="80" width="1" height="48" fill="#0d1117"/>
+<text x="1033" y="144" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#e34c26" text-anchor="middle">HTML</text>
+<rect x="1077" y="80" width="43" height="48" fill="#00ADD8" opacity="0.8"/>
+<rect x="1077" y="80" width="1" height="48" fill="#0d1117"/>
+<rect x="1120" y="80" width="21" height="48" fill="#8b949e" opacity="0.8"/>
+<rect x="1120" y="80" width="1" height="48" fill="#0d1117"/>
+</svg>
