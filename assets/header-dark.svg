@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Kayra, @Kayra-ML. Python · Machine Learning · Data Science. Find the story hidden in the data.">
+<rect width="1200" height="440" fill="#0d1117"/>
+<rect x="20.5" y="20.5" width="1159.0" height="399.0" fill="none" stroke="#21262d"/>
+
+<!-- ruler top -->
+<rect x="56.00" y="63.0" width="1" height="11" fill="#00FF41" opacity="0.5"/>
+<rect x="73.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="91.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="108.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="126.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="143.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="161.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="178.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="196.00" y="63.0" width="1" height="11" fill="#00FF41" opacity="0.5"/>
+<rect x="213.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="231.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="248.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="266.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="283.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="301.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="318.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="336.00" y="63.0" width="1" height="11" fill="#00FF41" opacity="0.5"/>
+<rect x="353.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="371.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="388.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="406.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="423.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="441.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="458.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="476.00" y="63.0" width="1" height="11" fill="#00FF41" opacity="0.5"/>
+<rect x="493.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="511.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="528.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="546.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="563.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="581.00" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="598.50" y="69.0" width="1" height="5" fill="#21262d"/>
+<rect x="616.00" y="63.0" width="1" height="11" fill="#00FF41" opacity="0.5"/>
+
+<!-- ruler labels -->
+<text x="60.00" y="59.0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.5">0</text>
+<text x="200.00" y="59.0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.5">8</text>
+<text x="340.00" y="59.0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.5">16</text>
+<text x="480.00" y="59.0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.5">24</text>
+<text x="614.00" y="59.0" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.5" text-anchor="end">31</text>
+<rect x="56.0" y="74.0" width="560.0" height="1" fill="#21262d"/>
+
+<!-- KAYRA wordmark drawn as paths, green stroke -->
+<g transform="translate(56.00,118.00) scale(0.79)" fill="none" stroke="#00FF41" stroke-width="20" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="6" opacity="0.9">
+  <!-- K -->
+  <g transform="translate(0,0)">
+    <path d="M10,10 V130"/>
+    <path d="M88,10 L10,73"/>
+    <path d="M44,52 L90,130"/>
+  </g>
+  <!-- A -->
+  <g transform="translate(122,0)">
+    <path d="M8,130 L46,10 H54 L92,130"/>
+    <path d="M27,94 H73"/>
+  </g>
+  <!-- Y -->
+  <g transform="translate(244,0)">
+    <path d="M10,10 L50,66 L90,10"/>
+    <path d="M50,66 V130"/>
+  </g>
+  <!-- R -->
+  <g transform="translate(366,0)">
+    <path d="M10,130 V10 H50 A30,30 0 0 1 50,70 H10"/>
+    <path d="M50,70 L90,130"/>
+  </g>
+  <!-- A -->
+  <g transform="translate(488,0)">
+    <path d="M8,130 L46,10 H54 L92,130"/>
+    <path d="M27,94 H73"/>
+  </g>
+</g>
+
+<!-- handle + info lines -->
+<text x="56" y="262" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#00FF41" opacity="0.6" letter-spacing="0.6">@Kayra-ML · Türkiye · since 2026</text>
+<text x="56" y="312" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#e6edf3" letter-spacing="-0.3">Find the story hidden</text>
+<text x="56" y="342" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#e6edf3" letter-spacing="-0.3">in the data.</text>
+<rect x="56.0" y="372.0" width="560.0" height="1" fill="#21262d"/>
+<text x="56" y="400" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5" fill="#8b949e">Python · ML · NumPy · Pandas · Scikit-Learn · SQL</text>
+
+<!-- right panel: green hexdump -->
+<rect x="640" y="78" width="504" height="308" fill="#0d1117" stroke="#00FF41" stroke-opacity="0.15" stroke-width="1"/>
+<text x="660" y="96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#00FF41" opacity="0.5" letter-spacing="1.4">PROFILE · 0x08 BYTES</text>
+
+<!-- row 0000 -->
+<text x="660" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0000</text>
+<text x="722" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">4b</text>
+<text x="743" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">61</text>
+<text x="765" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">79</text>
+<text x="786" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">72</text>
+<text x="808" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">61</text>
+<text x="829" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">20</text>
+<text x="851" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">4d</text>
+<text x="872" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">4c</text>
+<text x="912" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">K</text>
+<text x="926" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">a</text>
+<text x="934" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">y</text>
+<text x="941" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">r</text>
+<text x="949" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">a</text>
+<text x="956" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">_</text>
+<text x="964" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">M</text>
+<text x="971" y="118" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">L</text>
+
+<!-- row 0008 -->
+<text x="660" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0008</text>
+<text x="722" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">50</text>
+<text x="743" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">79</text>
+<text x="765" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">74</text>
+<text x="786" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">68</text>
+<text x="808" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">6f</text>
+<text x="829" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">6e</text>
+<text x="851" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">20</text>
+<text x="872" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">4d</text>
+<text x="912" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">P</text>
+<text x="926" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">y</text>
+<text x="934" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">t</text>
+<text x="941" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">h</text>
+<text x="949" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">o</text>
+<text x="956" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">n</text>
+<text x="964" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">_</text>
+<text x="971" y="140" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">M</text>
+
+<!-- row 0010 -->
+<text x="660" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0010</text>
+<text x="722" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">4d</text>
+<text x="743" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">4c</text>
+<text x="765" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">20</text>
+<text x="786" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">44</text>
+<text x="808" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">61</text>
+<text x="829" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">74</text>
+<text x="851" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#e6edf3">61</text>
+<text x="872" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">00</text>
+<text x="912" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">M</text>
+<text x="926" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">L</text>
+<text x="934" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">.</text>
+<text x="941" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">D</text>
+<text x="949" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">a</text>
+<text x="956" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">t</text>
+<text x="964" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#00FF41">a</text>
+<text x="971" y="162" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#21262d">.</text>
+
+<!-- separator -->
+<rect x="660" y="175" width="460" height="1" fill="#21262d"/>
+
+<!-- stat rows -->
+<text x="660" y="196" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">focus     <tspan fill="#00FF41">Machine Learning</tspan></text>
+<text x="660" y="218" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">lang[0]   <tspan fill="#e6edf3">Python</tspan></text>
+<text x="660" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">lang[1]   <tspan fill="#e6edf3">TypeScript</tspan></text>
+<text x="660" y="262" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">lang[2]   <tspan fill="#e6edf3">Go</tspan></text>
+<text x="660" y="284" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">next      <tspan fill="#00FF41">PyTorch · Deep Learning</tspan></text>
+<text x="660" y="306" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">location  <tspan fill="#e6edf3">Türkiye 🇹🇷</tspan></text>
+
+<rect x="660" y="320" width="460" height="1" fill="#21262d"/>
+
+<text x="660" y="340" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">stack     NumPy · Pandas · Scikit-Learn · Matplotlib · SQL</text>
+<text x="660" y="358" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">contact   byildiz.codes@gmail.com</text>
+<text x="660" y="376" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#00FF41" opacity="0.7">          github.com/Kayra-ML</text>
+
+</svg>
