@@ -6,22 +6,25 @@
 
 ## The habit
 
-Most people reach for a model first. I reach for the data first.
+Most people start with the model. I start with the question the data is actually
+answering — which is usually not the question anyone asked out loud.
 
-Before fitting anything I want to understand what the numbers actually say — where
-they come from, what they are measuring, and what they will look like when the
-model gets it wrong. A score on a leaderboard tells you very little. The confusion
-matrix, the residuals, the cases the model is most confident about when it
-shouldn't be — those tell you something real.
+A loss curve that goes down is not the same thing as a model that works.
+A 95 % accuracy is not the same thing as a 95 % accurate model. I care about
+what the metric is actually measuring, which cases it ignores, and what the
+model does on the examples nobody included in the test set. That is the
+part that breaks in production.
 
-The result is slower to start and harder to fool. It is why `ModelAudit`
-probes behavior rather than trusts self-reports, and why the F1 analytics
-platform processes telemetry without running out of memory halfway through a race.
+The result is slower to start and harder to fool. `ModelAudit` exists because I
+wanted a framework that probes what a model *does* rather than trusts what it
+*says it is*. The F1 telemetry platform exists because the naive approach
+pulls a full race worth of data into memory and dies; this one doesn't.
 
-I'm Kayra. I work in Python and spend most of my time in the ML and data space.
-For everything else — bots, servers, CLIs — I pick whatever the problem is asking
-for and use AI-assisted workflows openly, because hiding that would be dishonest
-and using it well is its own skill.
+I'm Kayra. Python is my first language and the ML and data space is where I spend
+most of my time. For tooling — bots, CLIs, APIs — I write TypeScript or Go and
+pick whichever one the problem is asking for. Most of those projects were built
+with AI-assisted workflows, and I say that plainly because hiding it would be
+dishonest and using a tool well is its own skill.
 
 <!--fig-fields-->
 <div align="center">
