@@ -60,24 +60,6 @@ class Kayra:
 
 </div>
 
----
-
-### 🗺️ Future Learning Roadmap
-
-What I am focusing on next:
-
-```text
-├── 🧠 Deep Learning
-│   ├── Neural network fundamentals & mathematics
-│   └── Hands-on modeling with PyTorch
-│
-├── 🚀 Model Deployment
-│   ├── Serving models via lightweight APIs (FastAPI)
-│   └── Containerization basics (Docker)
-│
-└── 📊 Advanced Data Pipelines
-    └── Working with larger datasets & advanced SQL optimization
-```
 
 ---
 
