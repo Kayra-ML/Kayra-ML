@@ -1,99 +1,219 @@
+<!--fig-header-->
+<picture>
+  <img alt="Kayra, @Kayra-ML. Python · Machine Learning · Data Science. Find the story hidden in the data." src="assets/header-dark.svg" width="100%">
+</picture>
+<!--/fig-header-->
+
+## The habit
+
+Most people reach for a model first. I reach for the data first.
+
+Before fitting anything I want to understand what the numbers actually say — where
+they come from, what they are measuring, and what they will look like when the
+model gets it wrong. A score on a leaderboard tells you very little. The confusion
+matrix, the residuals, the cases the model is most confident about when it
+shouldn't be — those tell you something real.
+
+The result is slower to start and harder to fool. It is why `ModelAudit`
+probes behavior rather than trusts self-reports, and why the F1 analytics
+platform processes telemetry without running out of memory halfway through a race.
+
+I'm Kayra. I work in Python and spend most of my time in the ML and data space.
+For everything else — bots, servers, CLIs — I pick whatever the problem is asking
+for and use AI-assisted workflows openly, because hiding that would be dishonest
+and using it well is its own skill.
+
+<!--fig-fields-->
 <div align="center">
 
-  <!-- AVATAR WITH NEON EMERALD BORDER -->
-  <img src="https://github.com/Kayra-ML.png" width="150" height="150" style="border-radius: 50%; border: 3px solid #00FF41; box-shadow: 0 0 15px rgba(0, 255, 65, 0.4);" alt="Kayra-ML Profile" />
-
-  <br/><br/>
-
-  <h1><span style="color: #00FF41;">&gt;</span> Kayra ML</h1>
-
-  <!-- TYPING SVG - ENGLISH, CLEAN & ACCURATE -->
-  <a href="https://github.com/Kayra-ML">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=1100&color=00FF41&background=0D111700&center=true&vCenter=true&width=620&height=48&lines=Machine+Learning+Enthusiast;Python+%E2%80%A2+Data+Analysis+%E2%80%A2+Modeling;NumPy+%E2%80%A2+Pandas+%E2%80%A2+Scikit-Learn+%E2%80%A2+SQL;Building+with+AI-Assisted+Engineering" alt="Typing SVG" />
-  </a>
-
-  <p style="color: #8b949e; font-size: 15px; max-width: 600px; margin-top: 6px;">
-    <i>"Exploring data, understanding machine learning models, and building things step by step."</i>
-  </p>
-
-  <!-- METRIC BADGES -->
-  <p>
-    <img src="https://komarev.com/ghpvc/?username=Kayra-ML&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/Kayra-ML?style=for-the-badge&color=00ff41&labelColor=0d1117&logo=github&logoColor=ffffff" alt="GitHub Followers" />
-    <img src="https://img.shields.io/badge/FOCUS-MACHINE_LEARNING-00FF41?style=for-the-badge&logoColor=black&labelColor=0d1117" alt="Focus" />
-  </p>
-
-</div>
-
----
-
-## ⚡ `whoami`
-
-```python
-class Kayra:
-    focus       = "Currently learning and working on Machine Learning 🧠"
-    stack       = ["Python", "NumPy", "Pandas", "Matplotlib", "Scikit-Learn", "MySQL"]
-    c_plus_plus = "Basic knowledge (syntax & core concepts) ⚙️"
-    workflow    = "Most of my non-Python projects were built using AI assistants 🤖"
-    next_goals  = ["Deep Learning", "PyTorch", "Model Deployment"]
-    motto       = "Find the story hidden in the data 📊"
+```
+Activity :: Kayra-ML {
+    focus       : Machine Learning · Data Science · Python
+    stack       : NumPy · Pandas · Scikit-Learn · Matplotlib · MySQL
+    also_writes : TypeScript · JavaScript · Go · C++ (basic)
+    workflow    : AI-assisted for non-Python projects — stated plainly, not hidden
+    next        : Deep Learning · PyTorch · Model Deployment
+    motto       : "Find the story hidden in the data 📊"
+}
 ```
 
----
+</div>
+<!--/fig-fields-->
 
-### 🛠️ Core Tech Stack
-
+<!--fig-calendar-->
 <div align="center">
 
-#### 🐍 Data Science & Machine Learning
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
-![NumPy](https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=00ff41)
-![Pandas](https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=00ff41)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=00ff41)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
-![Seaborn](https://img.shields.io/badge/Seaborn-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
-
-#### 🗄️ Database & Basic Tools
-![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=00ff41)
-![C++](https://img.shields.io/badge/C++_(Basic)-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00ff41)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=00ff41)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kayra-ML&background=0D1117&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00FF41&sideLabels=00FF41&dates=8B949E" alt="Contribution streak — days since first commit, current and longest run." width="90%" />
 
 </div>
+<!--/fig-calendar-->
 
+## Things I've built
 
----
+<!--projects-->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 📂 Featured Projects
+#### [ModelAudit](https://github.com/Kayra-ML/ModelAudit)
+<sub>`Python` · LLM Forensics · Prompt Evaluation</sub>
 
-| Project | Description | Stack / Architecture |
-|:--------|:------------|:---------------------|
-| **[ModelAudit](https://github.com/Kayra-ML/ModelAudit)** | Open-source framework for LLM identity forensics, persona detection, and AI transparency verification. | Python · LLM Forensics · Prompt Evaluation |
-| **[RoveCode Plugins](https://github.com/Kayra-ML/RoveCode_plugins)** | Token-efficient, domain-aware MCP server with a deterministic router across 11 plugins & 72 skills. | MCP Server · TypeScript · Built with AI |
-| **[F1 Data Analysis](https://github.com/Kayra-ML/fast_f1_data)** | Formula 1 analytics platform processing telemetry, lap times, and race strategies with RAM-efficient SQL. | Python · FastAPI · PostgreSQL · React |
-| **[Qbeat](https://github.com/Kayra-ML/Qbeat)** | Multi-instance Discord music bot cluster using an orchestrator & worker architecture for zero lag. | Python · discord.py · Asyncio · Docker |
+An open-source framework for **LLM identity forensics**, persona
+detection, and AI transparency verification. Feed it a model,
+get back a behavioral profile instead of a self-report.
 
----
+**The hardest part:** models will tell you whatever you want
+to hear if you ask them directly. The interesting work is
+designing probes that catch the gap between what the model
+claims and what it does.
 
-### 📈 GitHub Activity & Streak
+Pure Python. No magic.
 
+</td>
+<td width="50%" valign="top">
+
+#### [RoveCode Plugins](https://github.com/Kayra-ML/RoveCode_plugins)
+<sub>`TypeScript` · MCP Server · AI-assisted</sub>
+
+A token-efficient, domain-aware MCP server with a deterministic
+router across **11 plugins and 72 skills**.
+
+**The hardest part:** the router. It has to dispatch a request
+to exactly the right plugin without reading the entire skill
+list on every call, which is what naive implementations do.
+This one reads once, routes in O(1).
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [F1 Data Analysis](https://github.com/Kayra-ML/fast_f1_data)
+<sub>`Python` · `FastAPI` · `PostgreSQL` · `React`</sub>
+
+Formula 1 analytics platform processing telemetry, lap times,
+and race strategies with **RAM-efficient SQL** queries.
+
+The challenge is volume: F1 telemetry is dense and the naive
+approach runs out of memory before the race finishes. This one
+streams and aggregates at the database layer instead of
+pulling everything into Python first.
+
+</td>
+<td width="50%" valign="top">
+
+#### [Qbeat](https://github.com/Kayra-ML/Qbeat)
+<sub>`Python` · `discord.py` · `Asyncio` · `Docker`</sub>
+
+Multi-instance Discord music bot cluster using an
+**orchestrator and worker architecture** for zero-lag playback.
+
+Single-instance bots stall when multiple servers are active
+at once and the queue is long. This one splits work across
+workers that the orchestrator assigns on demand rather than
+queueing everything behind one audio thread.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [ZscriptBot](https://github.com/Kayra-ML/ZscriptBot)
+<sub>`TypeScript` — 6 ⭐</sub>
+
+Discord command bot. Modular by design: every command lives in
+its own file so the project doesn't collapse into one giant
+handler as it grows. TypeScript keeps the message types honest.
+
+</td>
+<td width="50%" valign="top">
+
+#### [Rove\_cli](https://github.com/Kayra-ML/Rove_cli)
+<sub>`Go` · MIT</sub>
+
+A CLI tool — written while learning Go. First Go project; it is
+here because it is real work, not because it is finished.
+The day a more serious Go repository exists, this line updates.
+
+</td>
+</tr>
+</table>
+<!--/projects-->
+
+<!--fig-langs-->
 <div align="center">
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kayra-ML&background=0D1117&border=00FF41&stroke=00FF41&ring=00FF41&fire=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00FF41&sideLabels=00FF41&dates=8B949E" alt="GitHub Streak" width="85%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kayra-ML&layout=compact&theme=github_dark&hide_border=true&title_color=00FF41&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Languages by bytes of source GitHub reports for each one." width="60%" />
 
 </div>
+<!--/fig-langs-->
 
----
+## What this page is not telling you
 
-### 📬 Connect With Me
+Every profile shows its wins. Here is the other column, because a page without one
+is a sales pitch.
 
-<div align="center">
+- **The account is young.** It opened in 2026. The streak graph above is
+  mostly empty for a reason, and it shows exactly where it stops being empty
+  rather than cropping the year to look busier than it is.
+- **Stars are not users.** A few repositories have stars. That mostly means the
+  README was readable, not that anyone ran the thing in production. I have not
+  done the work of getting any of this in front of someone who would.
+- **ML is genuinely in progress.** `next_goals` in the block above is not
+  decoration. Scikit-Learn I know well. PyTorch and deployment are actively
+  next — not "someday" next.
+- **The AI-assisted workflow is real.** Most of my non-Python projects were
+  built with AI assistance. I say this in my `whoami` and I mean it. Using a
+  tool well is a skill; hiding that you used it is not.
+- **Some repositories are experiments, not products.** `Rove_cli` came out of
+  learning Go. They are on the profile because they are real, not because they
+  are finished.
 
-[![Email](https://img.shields.io/badge/Email-byildiz.codes%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00ff41)](mailto:byildiz.codes@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-kayra--ml.github.io-0d1117?style=for-the-badge&logo=googlechrome&logoColor=00ff41)](https://kayra-ml.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-%40Kayra--ML-0d1117?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/Kayra-ML)
+## Now
+
+- Going deeper into the ML fundamentals: not just fitting models but understanding
+  why a given model is the right or wrong choice for a given problem, and what
+  the evaluation metric is actually measuring.
+- Reading about **Deep Learning**. Nothing public in PyTorch yet — it goes on
+  this page the day there is a repository to point at.
+- The featured project list above is not a final state. More coming.
+
+## How this page is built
+
+The streak and language figures above are pulled live from
+[github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)
+and [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) on every
+page load. Nothing here is hand-typed or can quietly go stale — the numbers update
+themselves.
+
+The project descriptions are written by hand, once, and updated when the project
+changes. That is intentional: a one-line auto-generated description tells you
+the language and the star count. A paragraph tells you what the hard part was.
+
+<details>
+<summary><b>Türkçe</b></summary>
 
 <br/>
 
-<sub>*"Find the story hidden in the data."*</sub>
+Merhaba, ben **Kayra**. **Python**, **veri bilimi** ve **makine öğrenmesi** alanında
+çalışıyorum — NumPy, Pandas, Scikit-Learn, Matplotlib, SQL.
 
-</div>
+Çoğu işimde ortak bir alışkanlık var: **modelden önce veriyi anlamayı tercih ederim.**
+Bir leaderboard skoru çok az şey söyler. Confusion matrix, residualler, modelin
+yanlış olduğu hâlde en çok emin olduğu durumlar — bunlar gerçek bir şey söyler.
+
+Python dışındaki projelerimi büyük ölçüde AI destekli iş akışıyla yazdım ve bunu
+açıkça söylüyorum, çünkü saklamak dürüstlük değil, iyi kullanmak ise ayrı bir beceri.
+
+Yukarıdaki "What this page is not telling you" bölümü de aynı sebepten var: hesap
+yeni, yıldızlar kullanıcı sayısı değil, ve ML hâlâ aktif olarak öğreniliyor.
+Bunları saklamak yerine yazmak bana daha doğru geliyor.
+
+</details>
+
+## Reach me
+
+**byildiz.codes@gmail.com** · [@Kayra-ML](https://github.com/Kayra-ML) · [kayra-ml.github.io](https://kayra-ml.github.io)
+
+Open to interesting problems, especially anything involving data that hasn't been
+looked at carefully yet.
