@@ -90,7 +90,43 @@ def fetch():
 # without anyone editing this file. The two kinds of card are deliberately
 # identical in chrome: a reader should not be able to tell which ones the author
 # could not be bothered to write about.
-CURATED = {}
+CURATED = {
+    "Rove_cli": (
+        ["Go", "Wails", "React", "TypeScript"],
+        "A local-first AI agent desktop and CLI: multi-session chat, Kanban, terminal "
+        "multiplexing, memory, skills/plugins and background automation in one app."
+    ),
+    "ModelAudit": (
+        ["LLM", "AI Forensics", "Prompt Engineering"],
+        "An open framework for LLM identity forensics: fingerprinting model behavior, "
+        "testing transparency and detecting when a model is wrapped behind another persona."
+    ),
+    "RoveCode_plugins": (
+        ["TypeScript", "MCP", "AI Engineering"],
+        "A token-efficient skill, routing and memory layer for AI coding tools, with "
+        "domain-aware plugins, deterministic routing and persistent user preferences."
+    ),
+    "KeyLingo": (
+        ["Python", "DeepL API", "macOS"],
+        "A global macOS translator that turns typed text between Turkish and English "
+        "inside any app using keyboard shortcuts, while preserving clipboard and input state."
+    ),
+    "SearchForge_open": (
+        ["Python", "FastAPI", "Next.js", "Google Drive"],
+        "A document search system for PDFs and files stored in Google Drive, with a "
+        "FastAPI backend, browser PDF reading and keyword/page-level search."
+    ),
+    "fast_f1_data": (
+        ["Python", "FastAPI", "PostgreSQL", "React"],
+        "A full-stack Formula 1 data analysis platform for 2024-2025 data, built around "
+        "RAM-efficient SQL queries, pagination and interactive driver/team analysis."
+    ),
+    "pyutils-toolkit": (
+        ["Python"],
+        "A lightweight Python utility library for common data-processing tasks: strings, "
+        "dates, file I/O, configuration handling and logging helpers."
+    ),
+}
 
 # GitHub reports a custom or unrecognised licence as one of these. Printing
 # "Other" next to a project says nothing, so it is dropped instead.
