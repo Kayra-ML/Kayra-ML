@@ -7,13 +7,20 @@
 
 ## The habit
 
-Most of what I build sits somewhere between **AI provider infrastructure, APIs, automation,
-CLI tooling, agent orchestration and reverse engineering**. I like understanding what a
-service is actually doing underneath the interface, then cutting away layers I do not need.
+I build across **AI engineering, machine learning, data tooling, AI provider infrastructure,
+APIs, automation, CLI systems, agent orchestration and reverse engineering**. I like
+understanding what a system is actually doing underneath the interface, then cutting away
+layers I do not need.
 
-I'm **Kayra**, 18, from **Hatay, Türkiye**. I work mostly with **Python, Node.js and
-Rust**. Most of my time goes into provider/router systems, terminal-first developer tools,
-automation pipelines and protocol-level integrations.
+I'm **Kayra**, 18, from **Hatay, Türkiye**. I work mostly with **Python, Go, Node.js and
+Rust**. On the data / ML side I use **NumPy, Pandas, scikit-learn, Matplotlib and Jupyter**;
+on the systems side I spend most of my time on provider/router infrastructure, terminal-first
+developer tools, automation pipelines and protocol-level integrations.
+
+### Stack
+
+`Python` · `NumPy` · `Pandas` · `scikit-learn` · `Matplotlib` · `Jupyter` ·
+`Go` · `Node.js` · `Rust` · `FastAPI` · `PostgreSQL` · `GitHub Actions`
 
 <!--fig-fields-->
 <picture>
@@ -30,6 +37,9 @@ automation pipelines and protocol-level integrations.
 <!--/fig-calendar-->
 
 ## Things I've built
+
+A few projects that represent the kind of work I actually spend time on — AI systems,
+developer tooling, automation, data and protocol-level experiments.
 
 <!--projects-->
 <table>
@@ -227,6 +237,7 @@ about proficiency.
 ## Now
 
 - Building **AI provider / router infrastructure** and API tooling.
+- Going deeper into **machine learning and data work** with NumPy, Pandas and scikit-learn.
 - Developing **CLI-first tools, agent orchestration and automation systems**.
 - Reverse-engineering protocols and turning them into smaller, direct integrations.
 
@@ -254,14 +265,15 @@ reader on GitHub's light theme is not handed a black slab.
 
 Merhaba, ben **Kayra**. 18 yaşındayım ve **Hatay**'danım.
 
-AI provider altyapıları, otomasyon, API'ler, CLI araçları, agent orkestrasyonu ve
-reverse engineering tarafında çalışıyorum. Bir sistemi yüzeyden otomatikleştirmek yerine
+AI engineering, machine learning, veri araçları, AI provider altyapıları, otomasyon,
+API'ler, CLI araçları, agent orkestrasyonu ve reverse engineering tarafında çalışıyorum. Bir sistemi yüzeyden otomatikleştirmek yerine
 mümkün olduğunda protokolünü ve endpoint'lerini anlayıp doğrudan o katmanda çalışmayı
 tercih ediyorum.
 
-Python ağırlıklı çalışıyorum; Node.js ve Rust da kullandığım araçlar arasında. Şu sıralar
-provider/router sistemleri, terminal tabanlı geliştirici araçları ve otomasyon altyapıları
-üzerinde çalışıyorum.
+Python ağırlıklı çalışıyorum; veri ve ML tarafında **NumPy, Pandas, scikit-learn,
+Matplotlib ve Jupyter** kullanıyorum. Go, Node.js ve Rust da kullandığım araçlar arasında.
+Şu sıralar provider/router sistemleri, terminal tabanlı geliştirici araçları, otomasyon
+altyapıları ve ML/data projeleri üzerinde çalışıyorum.
 
 </details>
 
