@@ -1,205 +1,208 @@
 <!--fig-header-->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Kayra, @Kayra-ML. Türkiye. I'd rather fit the question than fit the benchmark." src="assets/header-dark.svg" width="100%">
+  <img alt="Burak, @Kayra-ML. Türkiye. I'd rather understand the data than chase the score." src="assets/header-light.svg" width="100%">
 </picture>
 <!--/fig-header-->
 
 ## The habit
 
-Most machine learning tutorials show you how to fit a model. Nobody shows you how
-to ask whether the model is answering the right question.
+A model giving a high score does not automatically mean it learned the right thing.
 
-A 97 % accuracy is not always a model that works. Sometimes it is a model that
-learned the majority class and is quietly ignoring everything interesting. The loss
-curve goes down, the benchmark number goes up, and nobody looks at the confusion
-matrix until it is in production. So I look at it first. Before I fit anything I
-want to know what the metric is actually measuring, which cases it skips, and what
-the ground truth would have to be for the number to mean what I think it means.
+So before I care about accuracy, I care about the data.
 
-The result takes longer to set up and is harder to game. It is why `ModelAudit`
-probes what a model *does* rather than what it *says*, and why the F1 telemetry
-platform queries at the database layer instead of pulling a full race into memory.
+I look at distributions, missing values, class balance, correlations, leakage,
+outliers and the metric itself. Then I build the model.
 
-I'm Kayra, from Türkiye. I write Python, TypeScript and Go, and I pick whichever
-one the problem is asking for: anything with data gets Python, a bot or API gets
-TypeScript, a CLI tool gets Go.
+Most of my work starts in **Python**.
+**NumPy** handles the numbers, **Pandas** handles the data, **Scikit-learn**
+handles most of the classical ML pipeline, and **Matplotlib** helps me see
+what the numbers are trying to hide.
+
+I am **Burak**, working under **@Kayra-ML** from Türkiye.
+
+My main direction is **Machine Learning and data**, but I also build APIs,
+developer tools, automation systems and AI-related projects when the problem
+needs them.
+
+I would rather understand why a model works than celebrate a benchmark number
+I cannot explain.
 
 <!--fig-fields-->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/fields-dark.svg">
-  <img alt="Activity as a struct: focus, languages, repositories, next goals and the date the account opened." src="assets/fields-dark.svg" width="100%">
+  <img alt="Activity as a struct: machine learning, Python, repositories, current stack and next goals." src="assets/fields-light.svg" width="100%">
 </picture>
 <!--/fig-fields-->
 
 <!--fig-calendar-->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg">
-  <img alt="The contribution year as a hexdump — one byte per day, the value is that day's commit count." src="assets/calendar-dark.svg" width="100%">
+  <img alt="The contribution year as a hexdump — one byte per day, shaded in Kayra green by contribution count." src="assets/calendar-light.svg" width="100%">
 </picture>
 <!--/fig-calendar-->
 
 ## Things I've built
 
 <!--projects-->
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [ZscriptBot](https://github.com/Kayra-ML/ZscriptBot)
-<sub>`TypeScript` — 6 stars</sub>
-
-A modular Discord command bot. Every command lives in its own
-file so the project does not collapse into one giant handler
-as it grows. TypeScript keeps the message types honest.
-
-**The interesting part:** the part everyone skips. Keeping a
-bot codebase readable six months later means the architecture
-has to enforce structure, not rely on the author remembering
-where things go. That is what the file layout does here.
-
-<sub>0x00 · 26 Aug 2026 → 17 Sep 2026</sub>
-
-</td>
-<td width="50%" valign="top">
-
 #### [ModelAudit](https://github.com/Kayra-ML/ModelAudit)
-<sub>`Python` · LLM Forensics · Prompt Evaluation</sub>
 
-An open-source framework for **LLM identity forensics**, persona
-detection and AI transparency verification.
+<sub>`AI` · `LLM Forensics` · `Evaluation`</sub>
 
-**The interesting part:** models will tell you whatever you want
-to hear if you ask them directly. The work is designing probes
-that catch the gap between what a model claims and what it
-actually does under pressure. Self-report is not evidence.
+An open research project for analyzing the real behaviour and identity of
+large language models.
 
-<sub>0x01 · 2026</sub>
+Instead of trusting what a model says it is, the project looks at technical
+and behavioural signals: response patterns, tokenizer behaviour, limits,
+errors and other fingerprints.
+
+**Interesting part:** self-report is not evidence.
+
+The goal is to measure behaviour instead of trusting the label placed on
+the model.
+
+<sub>0x00 · AI / model evaluation</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [fast_f1_data](https://github.com/Kayra-ML/fast_f1_data)
+
+<sub>`Python` · `FastAPI` · `PostgreSQL` · `Data Analysis`</sub>
+
+A Formula 1 analytics platform built around telemetry, lap data and race
+strategy analysis.
+
+Instead of loading an entire race into Python memory and processing everything
+there, the system pushes aggregation and filtering toward the database.
+
+**Interesting part:** moving computation closer to the data.
+
+Less memory usage, smaller responses and a cleaner path from raw telemetry to
+useful analysis.
+
+<sub>0x01 · Python / data systems</sub>
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-#### [SearchForge\_open](https://github.com/Kayra-ML/SearchForge_open)
-<sub>`JavaScript` — 4 stars</sub>
+#### [Qbeat](https://github.com/Kayra-ML/Qbeat)
 
-Open-source search tooling. The closed core lives elsewhere;
-this is the part that can be shared.
+<sub>`Python` · `asyncio` · `Discord` · `Docker`</sub>
 
-**The interesting part:** search that does not require a running
-backend. The index is built once, shipped as a static file,
-and queried entirely in the browser. No server, no latency on
-every keystroke.
+A Discord music system designed around a cluster architecture.
 
-<sub>0x02 · 27 Aug 2026 → 17 Sep 2026</sub>
+One main bot handles commands while worker bots handle voice channels, allowing
+multiple sessions to run without forcing everything through one process.
+
+Supports YouTube, Spotify, SoundCloud, queues, volume control, slash commands,
+Docker deployment and modular cogs.
+
+**Interesting part:** distributing the workload instead of making one bot do
+everything.
+
+<sub>0x02 · distributed bot architecture</sub>
 
 </td>
 <td width="50%" valign="top">
 
-#### [RoveCode\_plugins](https://github.com/Kayra-ML/RoveCode_plugins)
-<sub>`TypeScript` · MCP Server</sub>
+#### [RoveCode_plugins](https://github.com/Kayra-ML/RoveCode_plugins)
 
-A token-efficient, domain-aware MCP server with a deterministic
-router across **11 plugins and 72 skills**.
+<sub>`TypeScript` · `MCP` · `AI Agents`</sub>
 
-**The interesting part:** the router. It has to dispatch to
-exactly the right plugin without reading the full skill list on
-every call, which is what naive implementations do. This one
-reads once and routes in O(1).
+A domain-aware plugin and skill system for AI agents.
 
-<sub>0x03 · 2026</sub>
+The project is built around routing an incoming task to the correct tool or
+skill without dumping the entire plugin catalogue into context every time.
+
+**Interesting part:** tool routing.
+
+Agent systems become expensive and noisy very quickly if every request begins
+by reading every available skill.
+
+<sub>0x03 · agent infrastructure</sub>
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-#### [fast\_f1\_data](https://github.com/Kayra-ML/fast_f1_data)
-<sub>`Python` · `FastAPI` · `PostgreSQL` · `React`</sub>
+#### [SearchForge_open](https://github.com/Kayra-ML/SearchForge_open)
 
-Formula 1 analytics platform processing telemetry, lap times
-and race strategies with **RAM-efficient SQL queries**.
+<sub>`JavaScript` · `Search` · `Static Index`</sub>
 
-**The interesting part:** the naive approach pulls a full race
-worth of telemetry into Python and runs out of memory before
-the race is over. This one aggregates at the database layer
-and only materialises the rows that are actually needed.
+Open-source search tooling built around a static search index.
 
-<sub>0x04 · 2026</sub>
+The index can be generated once and queried directly from the client without
+requiring a backend request for every search.
 
-</td>
-<td width="50%" valign="top">
+**Interesting part:** search without a permanently running search server.
 
-#### [zcore](https://github.com/Kayra-ML/zcore)
-<sub>`HTML` · `CSS` · `JavaScript` — 5 stars</sub>
-
-A frontend project written in plain HTML, CSS and JavaScript.
-No framework. No build step.
-
-**The interesting part:** most of the time a framework is chosen
-before the problem is understood. Starting without one forces
-you to understand what you actually need before you reach for
-a dependency that answers a question you have not asked yet.
-
-<sub>0x05 · 05 Jul 2026 → 17 Sep 2026</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [thomas](https://github.com/Kayra-ML/thomas)
-<sub>`JavaScript` — 6 stars</sub>
-
-A JavaScript project. Six stars on a repository with no
-description is what happens when people find the code useful
-before the author writes the README.
-
-The README will exist eventually. The code already works.
-
-<sub>0x06 · 26 Jun 2026 → 17 Sep 2026</sub>
+<sub>0x04 · search systems</sub>
 
 </td>
 <td width="50%" valign="top">
 
 #### [KeyLingo](https://github.com/Kayra-ML/KeyLingo)
-<sub>`Python` — 2 stars</sub>
 
-A Python language utility. Solves a small, real problem that
-kept coming up often enough to justify writing a tool for it.
+<sub>`Python` · `Automation` · `Language Tools`</sub>
 
-Small tools that do one thing right are worth more than large
-tools that do many things approximately.
+A small Python utility built around a simple idea: remove repetitive language
+workflow from the keyboard.
 
-<sub>0x07 · 15 Sep 2026 → 17 Sep 2026</sub>
+It is intentionally focused.
+
+**Interesting part:** some of the most useful programs are not platforms.
+They are tools that remove one annoying repeated action.
+
+<sub>0x05 · Python utility</sub>
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-#### [Rove\_cli](https://github.com/Kayra-ML/Rove_cli)
-<sub>`Go` · MIT</sub>
+#### [Rove_cli](https://github.com/Kayra-ML/Rove_cli)
 
-A CLI tool — written while learning Go. First Go project; it
-is here because the work is real, not because the project is
-finished. The day a more serious Go repository exists, this
-line updates.
+<sub>`Go` · `CLI`</sub>
 
-<sub>0x08 · 17 Sep 2026</sub>
+A command-line project written while exploring Go and CLI architecture.
+
+It is not here because Go is my main language.
+
+It is here because learning a language makes more sense to me when there is a
+real tool at the end of it.
+
+<sub>0x06 · Go / CLI</sub>
 
 </td>
 <td width="50%" valign="top">
 
 #### [pyutils-toolkit](https://github.com/Kayra-ML/pyutils-toolkit)
-<sub>`Python`</sub>
 
-Utilities that kept coming up in different Python projects,
-collected into one place instead of copied across repositories.
-Not a product. A toolbox.
+<sub>`Python` · `Utilities`</sub>
 
-<sub>0x09 · 17 Sep 2026</sub>
+Python utilities that kept appearing across different projects, collected into
+one place instead of being rewritten every time.
+
+Not a product.
+
+A toolbox.
+
+<sub>0x07 · Python</sub>
 
 </td>
 </tr>
@@ -207,89 +210,156 @@ Not a product. A toolbox.
 <!--/projects-->
 
 <!--fig-segments-->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/segments-dark.svg">
-  <img alt="Every public project as a segment on one time axis, from the day its repository was created to its last push." src="assets/segments-dark.svg" width="100%">
+  <img alt="Public projects shown as segments on a single timeline." src="assets/segments-light.svg" width="100%">
 </picture>
 <!--/fig-segments-->
 
 <!--fig-langs-->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
-  <img alt="Languages as a memory map, sized by the bytes of source GitHub reports for each one." src="assets/langs-dark.svg" width="100%">
+  <img alt="Languages and tools represented as a memory map, with Python and the machine learning stack at the center." src="assets/langs-light.svg" width="100%">
 </picture>
 <!--/fig-langs-->
 
+## The stack
+
+The tools I currently spend most of my time with are:
+
+`Python` · `NumPy` · `Pandas` · `Scikit-learn` · `Matplotlib`
+
+Most of what I am studying and building around them falls into:
+
+`Machine Learning` · `Data Analysis` · `Feature Engineering` ·
+`Model Evaluation` · `Data Visualization`
+
+I use notebooks when exploration matters and regular Python projects when the
+work starts becoming a system.
+
+The distinction matters.
+
+A notebook is good for asking questions.
+
+A project is better when the answer needs to keep running.
+
 ## What this page is not telling you
 
-Every profile shows its wins. Here is the other column, because a page without one
-is a sales pitch.
+Every GitHub profile naturally shows its best side.
 
-- **The account is young.** It opened in July 2026. The calendar above is mostly
-  empty for a reason, and the figure marks exactly where it stops being empty
-  rather than cropping the year to look busier.
-- **Stars are not users.** A few of my repositories have stars. That mostly means
-  the README was readable, not that anyone ran the thing in a real environment.
-  I have not done the work of getting any of this in front of someone who would.
-- **ML is genuinely in progress.** I describe myself as working in ML; the bytes
-  above describe someone who knows Scikit-Learn well and is still on the way to
-  PyTorch. Both things are true.
-- **The language split is lopsided.** Python is most of my source. I describe
-  myself as writing three languages; the memory map describes someone who reaches
-  for Python first and the others occasionally.
-- **Some repositories are not finished.** `pyutils-toolkit` is a toolbox.
-  `Rove_cli` came out of learning Go. They are on the profile because they are
-  real, not because they are done.
+This is the other column.
+
+* **Machine Learning is still an active learning process.**
+  I am comfortable working with Python and the classical data stack, but I am
+  still going deeper into the mathematics, algorithms and reasoning behind the
+  models instead of pretending the roadmap is finished.
+
+* **A certificate is not the same thing as understanding.**
+  Completing a course or notebook means very little if I cannot explain what
+  the model learned, why the metric changed, or what would break the result.
+
+* **Python is clearly my main language.**
+  I experiment with TypeScript, JavaScript and Go, but data work naturally
+  keeps pulling me back toward Python.
+
+* **Not every repository is a polished product.**
+  Some are experiments, some are utilities and some exist because I needed to
+  understand an idea by building it.
+
+* **A good benchmark can still describe a bad model.**
+  Data leakage, class imbalance or a badly selected metric can make a result
+  look impressive without making it useful.
+
+That is why I care increasingly less about whether a number looks good and more
+about whether I can explain where it came from.
 
 ## Now
 
-- Going deeper into the ML fundamentals: not just fitting models but understanding
-  why a given metric means what it means and what a model is actually learning.
-- **PyTorch** and Deep Learning are next on the list. Nothing public in it yet —
-  it goes on this page the day there is a repository to point at.
-- The project list above is not a final state. More coming.
+* Going deeper into **Machine Learning fundamentals** rather than only learning
+  library calls.
+
+* Working more seriously with **Scikit-learn pipelines, preprocessing,
+  feature engineering, validation and model evaluation**.
+
+* Using **NumPy and Pandas** less as syntax to memorize and more as tools for
+  understanding and transforming real datasets.
+
+* Improving how I visualize and explain results with **Matplotlib**.
+
+* Moving toward **Deep Learning and PyTorch** after the classical ML foundation
+  is strong enough.
+
+* Building projects instead of collecting tutorials.
 
 ## How this page is built
 
-The figures above are hand-drawn SVGs stored in `assets/` and referenced from the
-README via `<picture>` tags so a reader on GitHub's light theme gets the same image
-rather than a black slab. Each figure is written once for dark and mirrored for
-light.
+The visual language of this profile is based around **Kayra green**.
 
-The struct fields in the activity figure above are the real numbers — repository
-count, the actual opened date, the languages in order of use. The calendar is a
-hexdump where each cell is one day of 2026 and the shade of green is the commit
-count, so it reads as a heat map from a distance and as data up close. The wordmark
-in the header is drawn as SVG paths rather than set in a font, because no webfont
-survives GitHub's SVG sanitiser.
+Recommended primary color:
+
+`#D7FF43`
+
+with near-black backgrounds:
+
+`#0D0D0D`
+
+and softer green shades for lower-intensity data.
+
+The figures live under `assets/` and are referenced through `<picture>` tags so
+GitHub can show separate light and dark versions.
+
+The activity calendar can be generated from GitHub contribution data, with one
+cell for every day and the green intensity representing activity.
+
+The language figure can use the actual amount of source code GitHub reports
+instead of manually written percentages.
+
+That means the profile can behave more like a visualization of the repository
+than a static résumé.
 
 <details>
 <summary><b>Türkçe</b></summary>
 
 <br/>
 
-Merhaba, ben **Kayra**. **Türkiye**'de yaşıyorum. **Python, TypeScript ve Go**
-yazıyorum ve problem hangisini istiyorsa onu kullanıyorum.
+Merhaba, ben **Burak**. GitHub'da **@Kayra-ML** kullanıcı adını kullanıyorum.
 
-Yaptığım işlerin çoğunda ortak bir alışkanlık var: **modele veri vermeden önce
-soruya bakıyorum.** 97% doğruluk bazen gerçekten çalışan bir model demek değildir.
-Bazen çoğunluk sınıfını öğrenmiş ve ilginç her şeyi sessizce görmezden gelen bir
-model demektir. Loss eğrisi aşağı gider, benchmark sayısı yükselir ve kimse
-confusion matrix'e production'a gidene kadar bakmaz.
+Ana odağım **Machine Learning ve Python**.
 
-Ben önce bakıyorum. `ModelAudit` bunun yüzünden var: bir modelin ne *dediğine*
-değil, ne *yaptığına* bakıyor. F1 telemetri platformu da bunun yüzünden var: naif
-yaklaşım tüm yarış verisini belleğe çekip bitiyor; bu öyle yapmıyor.
+Şu anda özellikle **NumPy, Pandas, Scikit-learn ve Matplotlib** üzerinde
+çalışıyorum.
 
-Yukarıdaki "What this page is not telling you" bölümü de aynı sebepten var: hesap
-genç, yıldızlar az, dil dağılımı Python'a ciddi şekilde kayık ve ML hâlâ aktif
-olarak öğreniliyor. Bunları saklamak yerine yazmak daha doğru geliyor.
+Machine Learning tarafında benim için önemli olan sadece bir modeli eğitip
+yüksek accuracy görmek değil.
+
+Önce verinin ne söylediğine bakmayı tercih ediyorum.
+
+Eksik veriler, sınıf dağılımı, feature'lar, korelasyonlar, data leakage,
+validation yöntemi ve kullanılan metriğin gerçekten ne ölçtüğü modelin
+kendisinden bile daha önemli olabiliyor.
+
+%97 accuracy görmek güzel olabilir.
+
+Ama model sadece verinin %97'sini oluşturan sınıfı tahmin ediyorsa aslında hiçbir
+şey öğrenmemiş de olabilir.
+
+Bu yüzden Scikit-learn kullanırken yalnızca `.fit()` ve `.predict()` kısmıyla
+ilgilenmek istemiyorum.
+
+Modelin **neden** o sonucu verdiğini anlamak istiyorum.
+
+GitHub profilimde ML projelerinin yanında botlar, API'ler, CLI araçları ve AI
+altyapı projeleri de bulunuyor.
+
+Çünkü öğrenmenin en iyi yollarından birinin gerçek bir şey üretmek olduğunu
+düşünüyorum.
 
 </details>
 
 ## Reach me
 
-**byildiz.codes@gmail.com** · [@Kayra-ML](https://github.com/Kayra-ML) · [kayra-ml.github.io](https://kayra-ml.github.io)
+**[byildiz.codes@gmail.com](mailto:byildiz.codes@gmail.com)** · [@Kayra-ML](https://github.com/Kayra-ML) · [kayra-ml.github.io](https://kayra-ml.github.io)
 
-Open to interesting problems, especially anything involving data that has not been
-looked at carefully yet.
+Open to interesting problems involving **machine learning, data, AI systems and developer tools**.
