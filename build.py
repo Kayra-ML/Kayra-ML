@@ -4,7 +4,7 @@ GitHub data.
 
 Run locally with a token that can read public data:
 
-    GITHUB_TOKEN=$(gh auth token) python scripts/build.py
+    GITHUB_TOKEN=$(gh auth token) python build.py
 
 In CI the workflow passes the job's GITHUB_TOKEN. Note the query asks for
 user(login:...) and not viewer — inside Actions `viewer` is the bot, not Kayra.
@@ -26,7 +26,7 @@ import assets                                            # noqa: E402
 from theme import THEMES                                 # noqa: E402
 
 USER = "KAYRA-ML"
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "assets")
 README = os.path.join(ROOT, "README.md")
 
