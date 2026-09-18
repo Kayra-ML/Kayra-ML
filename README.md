@@ -1,7 +1,7 @@
 <!--fig-header-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="KAYRA, @KAYRA-ML. 18, Hatay, Türkiye. I'd rather speak the protocol than drive a browser." src="assets/header-light.svg" width="100%">
+  <img alt="Kayra, @KAYRA-ML. 18, Hatay, Türkiye. I'd rather speak the protocol than drive a browser." src="assets/header-light.svg" width="100%">
 </picture>
 <!--/fig-header-->
 
@@ -32,9 +32,175 @@ automation pipelines and protocol-level integrations.
 ## Things I've built
 
 <!--projects-->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-_Project cards are generated automatically from **@KAYRA-ML** public repositories on the next profile refresh._
+#### [pyutils-toolkit](https://github.com/KAYRA-ML/pyutils-toolkit)
+<sub>`Python`</sub>
 
+_No description yet._
+
+<sub>0x00 · 17 Sep 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
+<sub>`Go` — MIT</sub>
+
+_No description yet._
+
+<sub>0x01 · 17 Sep 2026 → 18 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [KeyLingo](https://github.com/KAYRA-ML/KeyLingo)
+<sub>`Python` — 2 stars</sub>
+
+_No description yet._
+
+<sub>0x02 · 15 Sep 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [ModelAudit](https://github.com/KAYRA-ML/ModelAudit)
+<sub>23 stars</sub>
+
+_No description yet._
+
+<sub>0x03 · 12 Sep 2026 → 17 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [RoveCode_plugins](https://github.com/KAYRA-ML/RoveCode_plugins)
+<sub>`TypeScript` — 25 stars</sub>
+
+_No description yet._
+
+<sub>0x04 · 05 Sep 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [open-_code_klavuz](https://github.com/KAYRA-ML/open-_code_klavuz)
+<sub>25 stars</sub>
+
+_No description yet._
+
+<sub>0x05 · 01 Sep 2026 → 17 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [codejam](https://github.com/KAYRA-ML/codejam)
+<sub>`TypeScript` — 5 stars</sub>
+
+_No description yet._
+
+<sub>0x06 · 30 Aug 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [SearchForge_open](https://github.com/KAYRA-ML/SearchForge_open)
+<sub>`JavaScript` — 4 stars</sub>
+
+_No description yet._
+
+<sub>0x07 · 27 Aug 2026 → 17 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [ZscriptBot](https://github.com/KAYRA-ML/ZscriptBot)
+<sub>`TypeScript` — 6 stars</sub>
+
+_No description yet._
+
+<sub>0x08 · 26 Aug 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [Kayra-ML.github.io](https://github.com/KAYRA-ML/Kayra-ML.github.io)
+<sub>`CSS` — 4 stars</sub>
+
+_No description yet._
+
+<sub>0x09 · 21 Jul 2026 → 17 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [Qbeat](https://github.com/KAYRA-ML/Qbeat)
+<sub>`Python` — 5 stars</sub>
+
+_No description yet._
+
+<sub>0x0A · 20 Jul 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [L-feOS](https://github.com/KAYRA-ML/L-feOS)
+<sub>`HTML` — 7 stars</sub>
+
+_No description yet._
+
+<sub>0x0B · 20 Jul 2026 → 17 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [zcore](https://github.com/KAYRA-ML/zcore)
+<sub>`HTML` — 5 stars</sub>
+
+_No description yet._
+
+<sub>0x0C · 05 Jul 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [fast_f1_data](https://github.com/KAYRA-ML/fast_f1_data)
+<sub>`Python` — 5 stars</sub>
+
+_No description yet._
+
+<sub>0x0D · 01 Jul 2026 → 17 Sep 2026</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [thomas](https://github.com/KAYRA-ML/thomas)
+<sub>`JavaScript` — 6 stars</sub>
+
+_No description yet._
+
+<sub>0x0E · 26 Jun 2026 → 17 Sep 2026</sub>
+
+</td>
+<td width="50%"></td>
+</tr>
+</table>
 <!--/projects-->
 
 <!--fig-segments-->

@@ -1,54 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 296" width="1200" height="296" role="img" aria-label="Activity as a struct: focus, languages, repositories, next goals and the date the account opened.">
-<rect width="1200" height="296" fill="#0d1117"/>
-<rect x="20.5" y="20.5" width="1159" height="255" fill="none" stroke="#21262d"/>
-<text x="56" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#00FF41" letter-spacing="1.4">struct activity</text>
-<text x="1144" y="52" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e" letter-spacing="0.6" text-anchor="end">sizeof = 8 bytes</text>
-<text x="56"   y="82" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#8b949e" letter-spacing="1.3">FIELD</text>
-<text x="276"  y="82" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#8b949e" letter-spacing="1.3">OFFSET</text>
-<text x="386"  y="82" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#8b949e" letter-spacing="1.3">TYPE</text>
-<text x="476"  y="82" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#8b949e" letter-spacing="1.3">VALUE</text>
-<text x="696"  y="82" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#8b949e" letter-spacing="1.3">MEANING</text>
-<rect x="56" y="92" width="1088" height="1" fill="#2a303a"/>
-<text x="56"  y="122"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">focus</text>
-<text x="276" y="122"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0x0000</text>
-<text x="386" y="122"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#58a6ff">str</text>
-<text x="476" y="124" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#00FF41" style="font-variant-numeric:tabular-nums">Machine Learning</text>
-<text x="696" y="122"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">primary interest</text>
-<rect x="56" y="132" width="1088" height="1" fill="#21262d"/>
-<text x="56"  y="155"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">lang[0]</text>
-<text x="276" y="155"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0x0001</text>
-<text x="386" y="155"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#58a6ff">str</text>
-<text x="476" y="157" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#00FF41" style="font-variant-numeric:tabular-nums">Python</text>
-<text x="696" y="155"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">data, ML, scripting</text>
-<rect x="56" y="165" width="1088" height="1" fill="#21262d"/>
-<text x="56"  y="188"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">lang[1]</text>
-<text x="276" y="188"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0x0002</text>
-<text x="386" y="188"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#58a6ff">str</text>
-<text x="476" y="190" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#e6edf3" style="font-variant-numeric:tabular-nums">TypeScript</text>
-<text x="696" y="188"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">bots, APIs, tooling</text>
-<rect x="56" y="198" width="1088" height="1" fill="#21262d"/>
-<text x="56"  y="221"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">lang[2]</text>
-<text x="276" y="221"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0x0003</text>
-<text x="386" y="221"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#58a6ff">str</text>
-<text x="476" y="223" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#e6edf3" style="font-variant-numeric:tabular-nums">Go</text>
-<text x="696" y="221"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">CLIs, learning</text>
-<rect x="56" y="231" width="1088" height="1" fill="#21262d"/>
-<text x="56"  y="254"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">repositories</text>
-<text x="276" y="254"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0x0004</text>
-<text x="386" y="254"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#58a6ff">u8</text>
-<text x="476" y="256" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="19" font-weight="600" fill="#e6edf3" style="font-variant-numeric:tabular-nums">8</text>
-<text x="696" y="254"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">owner, no forks</text>
-<rect x="56" y="264" width="1088" height="1" fill="#21262d"/>
-<text x="56"  y="287"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">next</text>
-<text x="276" y="287"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0x0005</text>
-<text x="386" y="287"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#58a6ff">str</text>
-<text x="476" y="289" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" font-weight="600" fill="#00FF41" style="font-variant-numeric:tabular-nums">PyTorch · Deep Learning</text>
-<text x="696" y="287"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">actively studying</text>
-<rect x="56" y="297" width="1088" height="1" fill="#21262d"/>
-<text x="56"  y="320"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b949e">opened</text>
-<text x="276" y="320"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">0x0006</text>
-<text x="386" y="320"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#58a6ff">date</text>
-<text x="476" y="322" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="19" font-weight="600" fill="#e6edf3" style="font-variant-numeric:tabular-nums">2026-07-20</text>
-<text x="696" y="320"   font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8b949e">account's first day</text>
-<rect x="56" y="330" width="1088" height="1" fill="#21262d"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 296" width="1200" height="296" role="img" aria-label="Activity: 208 contributions, 161 commits, 16 repositories">
+<rect width="1200" height="296" fill="#f4f7f1"/>
+<rect x="20.5" y="20.5" width="1159.0" height="255.0" fill="none" stroke="#dce6dd"/>
+<text x="56" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#008f36" letter-spacing="1.4">struct activity</text>
+<text x="1144" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#68756b" letter-spacing="0.6" text-anchor="end">sizeof = 8 bytes</text>
+<g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#68756b" letter-spacing="1.3">
+<text x="56" y="82">FIELD</text>
+<text x="306" y="82">OFFSET</text>
+<text x="416" y="82">TYPE</text>
+<text x="526" y="82">VALUE</text>
+<text x="696" y="82">MEANING</text>
+</g>
+<rect x="56.0" y="92.0" width="1088.0" height="1" fill="#c7d4c9"/>
+<text x="56" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#455348">contributions</text>
+<text x="306" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">0x0000</text>
+<text x="416" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#00a64a">u16</text>
+<text x="526" y="124" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="600" fill="#101510" style="font-variant-numeric:tabular-nums">208</text>
+<text x="696" y="122" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">public only — private work not counted</text>
+<rect x="56.0" y="132.0" width="1088.0" height="1" fill="#dce6dd"/>
+<text x="56" y="155" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#455348">commits</text>
+<text x="306" y="155" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">0x0002</text>
+<text x="416" y="155" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#00a64a">u16</text>
+<text x="526" y="157" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="600" fill="#101510" style="font-variant-numeric:tabular-nums">161</text>
+<text x="696" y="155" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">authored, not merged</text>
+<rect x="56.0" y="165.0" width="1088.0" height="1" fill="#dce6dd"/>
+<text x="56" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#455348">repositories</text>
+<text x="306" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">0x0004</text>
+<text x="416" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#00a64a">u8</text>
+<text x="526" y="190" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="600" fill="#101510" style="font-variant-numeric:tabular-nums">16</text>
+<text x="696" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">owner, no forks</text>
+<rect x="56.0" y="198.0" width="1088.0" height="1" fill="#dce6dd"/>
+<text x="56" y="221" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#455348">peak_day</text>
+<text x="306" y="221" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">0x0005</text>
+<text x="416" y="221" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#00a64a">u8</text>
+<text x="526" y="223" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="600" fill="#101510" style="font-variant-numeric:tabular-nums">84</text>
+<text x="696" y="221" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">commits inside 24 hours</text>
+<rect x="56.0" y="231.0" width="1088.0" height="1" fill="#dce6dd"/>
+<text x="56" y="254" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#455348">opened</text>
+<text x="306" y="254" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">0x0006</text>
+<text x="416" y="254" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#00a64a">date</text>
+<text x="526" y="256" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" font-weight="600" fill="#101510" style="font-variant-numeric:tabular-nums">2024-11-29</text>
+<text x="696" y="254" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#68756b">the account's first day</text>
 </svg>
