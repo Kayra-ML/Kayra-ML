@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 324" width="1200" height="324" role="img" aria-label="2026 contribution calendar: 219 contributions, peak 84 in one day. Past zero days are filled; future days are blank.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 324" width="1200" height="324" role="img" aria-label="2026 contribution calendar: 221 contributions, peak 84 in one day. Past zero days are filled; future days are blank.">
 <rect width="1200" height="324" fill="#0b1014"/>
 <rect x="20.5" y="20.5" width="1159.0" height="283.0" fill="none" stroke="#15231a"/>
 <text x="56" y="52" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#00ff4c" letter-spacing="1.4">hexdump contributions.cal</text>
@@ -304,7 +304,7 @@
 <rect x="831.25" y="201.74" width="15.55" height="15.55" fill="#29b84c"/>
 <text x="839.02" y="212.58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.0" fill="#0b1014" text-anchor="middle">0b</text>
 <rect x="831.25" y="221.28" width="15.55" height="15.55" fill="#1f6f35"/>
-<text x="839.02" y="232.12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.0" fill="#f0f0e8" text-anchor="middle">07</text>
+<text x="839.02" y="232.12" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.0" fill="#f0f0e8" text-anchor="middle">09</text>
 <rect x="850.79" y="104.00" width="15.55" height="15.55" fill="#141b1c"/>
 <rect x="850.79" y="123.55" width="15.55" height="15.55" fill="#141b1c"/>
 <rect x="850.79" y="143.09" width="15.55" height="15.55" fill="#141b1c"/>
