@@ -211,23 +211,21 @@ def build_fields(theme_name, cc, repo_count, peak, opened, private):
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+CALENDAR_WEEKS = 26
 
 
 def build_calendar(theme_name, u):
-    """The contribution year as a hexdump: one byte per day, the value is that
-    day's commit count, and the cell colour is the same number again. It reads
-    as a heat map from across the room and as data up close.
+    """Recent contribution activity as a hexdump: one byte per day, the value
+    is that day's commit count, and the cell colour is the same number again.
 
-    Forty-two of the fifty-three weeks predate the account. Drawing them as
-    forty-two columns of empty boxes spends three quarters of the figure saying
-    nothing and squeezes the real data into cells too small to print a byte in.
-    So the dead stretch is broken out of the axis the way a drawing breaks a
-    long member: compressed into one band, marked with a break, and labelled
-    with exactly how much was taken out. Nothing is hidden. It is stated once
-    instead of tiled four hundred times.
+    Only the most recent 26 weeks are drawn. That halves the number of columns
+    so each day can stay close to a true square instead of becoming a tall,
+    narrow strip. If part of this window predates the account, that dead stretch
+    is compressed and labelled rather than rendered as meaningless empty cells.
     """
     t = THEMES[theme_name]
-    weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"]
+    all_weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"]
+    weeks = all_weeks[-CALENDAR_WEEKS:]
     opened = datetime.strptime(u["createdAt"][:10], "%Y-%m-%d").date()
     peak = max((d["contributionCount"] for w in weeks for d in w["contributionDays"]), default=1)
 
@@ -239,7 +237,7 @@ def build_calendar(theme_name, u):
     live = [w for w in weeks if is_live(w)] or weeks
 
     lab_w, gap = 44, 4
-    ch = 42
+    ch = 40
     top = 104
     gx = M + lab_w + 8
     void_w = 372 if dead else 0
@@ -249,13 +247,12 @@ def build_calendar(theme_name, u):
     grid_h = 7 * ch - gap
     H = int(top + grid_h + 88)
 
-    total = u["contributionsCollection"]["contributionCalendar"]["totalContributions"]
-    p = head(W, H, "Contribution calendar: %d contributions, peak %d in one day. "
-             "%d weeks before the account existed are compressed out of the axis."
-             % (total, peak, len(dead)))
+    total = sum(d["contributionCount"] for w in weeks for d in w["contributionDays"])
+    p = head(W, H, "Recent %d-week contribution calendar: %d contributions, peak %d in one day. "
+             "One square per day." % (len(weeks), total, peak))
     p += plate(t, W, H)
     p += caption(t, 52, "hexdump contributions.cal",
-                 "one byte per day · value = commits · peak 0x%02x" % peak)
+                 "%d weeks · one byte per day · peak 0x%02x" % (len(weeks), peak))
 
     # --- the elided stretch
     if dead:
