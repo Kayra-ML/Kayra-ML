@@ -215,159 +215,160 @@ CALENDAR_WEEKS = 26
 
 
 def build_calendar(theme_name, u):
-    """Current-year contribution calendar using GitHub's year-view geometry.
+    """Recent contribution activity as a hexdump: one byte per day, the value
+    is that day's commit count, and the cell colour is the same number again.
 
-    Past days are always rendered as filled cells, including 0-contribution
-    days. Days outside the selected year and future days are left blank. This
-    mirrors the visual semantics of GitHub's own contribution graph while
-    keeping the hexdump byte labels for active days.
+    Only the most recent 26 weeks are drawn. That halves the number of columns
+    so each day can stay close to a true square instead of becoming a tall,
+    narrow strip. If part of this window predates the account, that dead stretch
+    is compressed and labelled rather than rendered as meaningless empty cells.
     """
     t = THEMES[theme_name]
-    api_weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"]
-    opened = datetime.strptime(u["createdAt"][:10], "%Y-%m-%d").date()
-
-    counts = {}
-    levels = {}
-    available_dates = []
-
+    all_weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"]
+    source_weeks = all_weeks[-CALENDAR_WEEKS:]
     profile_calendar = u.get("_profileCalendar") or {}
-    if profile_calendar:
-        for ds, item in profile_calendar.items():
-            counts[ds] = int(item.get("count", 0))
-            levels[ds] = int(item.get("level", 0))
-            available_dates.append(datetime.strptime(ds, "%Y-%m-%d").date())
-    else:
-        for wk in api_weeks:
-            for d in wk["contributionDays"]:
-                counts[d["date"]] = d["contributionCount"]
-                available_dates.append(datetime.strptime(d["date"], "%Y-%m-%d").date())
 
-    today = max(available_dates) if available_dates else date.today()
-    year = today.year
-    year_start = date(year, 1, 1)
-    year_end = date(year, 12, 31)
-
-    # GitHub's rows are Sunday -> Saturday. Include the partial week at each
-    # edge of the year, but leave out-of-year days blank.
-    grid_start = year_start - timedelta(days=(year_start.weekday() + 1) % 7)
-    grid_end = year_end + timedelta(days=(5 - year_end.weekday()) % 7)
-
+    # Keep the exact same 26-week layout. Only correct which day cells are
+    # marked and how strong they are.
     weeks = []
-    cur = grid_start
-    while cur <= grid_end:
-        weeks.append([cur + timedelta(days=i) for i in range(7)])
-        cur += timedelta(days=7)
+    for wk in source_weeks:
+        days = []
+        for raw in wk["contributionDays"]:
+            d = dict(raw)
+            visible = profile_calendar.get(d["date"])
+            if visible is not None:
+                d["contributionCount"] = int(visible.get("count", 0))
+                d["_level"] = int(visible.get("level", 0))
+            days.append(d)
+        weeks.append({"contributionDays": days})
 
-    year_counts = [
-        counts.get(d.isoformat(), 0)
-        for wk in weeks for d in wk
-        if d.year == year and opened <= d <= today
-    ]
-    total = sum(year_counts)
-    peak = max(year_counts, default=1)
+    opened = datetime.strptime(u["createdAt"][:10], "%Y-%m-%d").date()
+    peak = max((d["contributionCount"] for w in weeks for d in w["contributionDays"]), default=1)
+
+    def is_live(wk):
+        return any(datetime.strptime(d["date"], "%Y-%m-%d").date() >= opened
+                   for d in wk["contributionDays"])
+
+    dead = [w for w in weeks if not is_live(w)]
+    live = [w for w in weeks if is_live(w)] or weeks
 
     lab_w, gap = 44, 4
+    ch = 40
     top = 104
     gx = M + lab_w + 8
-    right = M + CONTENT
-
-    # Use the full available width and derive vertical pitch from the same value,
-    # so every contribution cell is a true square.
-    pitch = (right - gx) / len(weeks)
-    cell = pitch - gap
-    grid_h = 7 * pitch - gap
+    void_w = 372 if dead else 0
+    brk = 30 if dead else 0
+    lx = gx + void_w + brk
+    cw = (M + CONTENT - lx) / len(live)
+    grid_h = 7 * ch - gap
     H = int(top + grid_h + 88)
 
-    p = head(
-        W, H,
-        "%d contribution calendar: %d contributions, peak %d in one day. "
-        "Past zero days are filled; future days are blank."
-        % (year, total, peak)
-    )
+    total = sum(d["contributionCount"] for w in weeks for d in w["contributionDays"])
+    p = head(W, H, "Recent %d-week contribution calendar: %d contributions, peak %d in one day. "
+             "One square per day." % (len(weeks), total, peak))
     p += plate(t, W, H)
-    p += caption(
-        t, 52, "hexdump contributions.cal",
-        "%d · one byte per day · value = contributions · peak 0x%02x" % (year, peak)
-    )
+    p += caption(t, 52, "hexdump contributions.cal",
+                 "%d weeks · one byte per day · peak 0x%02x" % (len(weeks), peak))
 
-    # Day labels.
+    # --- the elided stretch
+    if dead:
+        p.append('<rect x="%.1f" y="%d" width="%d" height="%d" fill="%s"/>'
+                 % (gx, top, void_w, grid_h, t["inset"]))
+        p.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="14" fill="%s" '
+                 'text-anchor="middle">%d weeks elided</text>'
+                 % (gx + void_w / 2, top + grid_h / 2 - 4, MONO, t["ink2"], len(dead)))
+        p.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="11.5" fill="%s" '
+                 'text-anchor="middle">the account did not exist yet</text>'
+                 % (gx + void_w / 2, top + grid_h / 2 + 20, MONO, t["ink3"]))
+        p.append('<text x="%.1f" y="%d" font-family="%s" font-size="10" fill="%s" '
+                 'letter-spacing="1">%s</text>'
+                 % (gx, top - 12, MONO, t["ink3"],
+                    datetime.strptime(weeks[0]["contributionDays"][0]["date"],
+                                      "%Y-%m-%d").strftime("%Y")))
+        # The pair of slashes a drawing uses to say a length was taken out, so
+        # the axis is never mistaken for a continuous one.
+        for k in (0, 1):
+            bx = gx + void_w + 10 + k * 9
+            p.append('<path d="M%.1f %.1f L%.1f %.1f" stroke="%s" stroke-width="1.5" '
+                     'fill="none"/>'
+                     % (bx - 5, top + grid_h + 6, bx + 5, top - 6, t["ink3"]))
+
     for r in range(7):
-        y = top + r * pitch + cell / 2 + 4
-        p.append(
-            '<text x="%d" y="%.1f" font-family="%s" font-size="11" fill="%s">%s</text>'
-            % (M, y, MONO, t["ink3"], DAYS[r])
-        )
+        p.append('<text x="%d" y="%.1f" font-family="%s" font-size="11" fill="%s">%s</text>'
+                 % (M, top + r * ch + 25, MONO, t["ink3"], DAYS[r]))
 
-    # Month labels. Put each month over the week that contains its first day.
-    for month in range(1, 13):
-        first = date(year, month, 1)
-        week_index = (first - grid_start).days // 7
-        mx = gx + week_index * pitch
-        p.append(
-            '<text x="%.1f" y="%d" font-family="%s" font-size="10" fill="%s" '
-            'letter-spacing="1">%s</text>'
-            % (mx, top - 12, MONO, t["ink3"], MONTHS[month - 1])
-        )
+    # --- month ruler over the live stretch only
+    #
+    # The "account opens" label shares this row and is far wider than a month
+    # name, so it claims its own span first and any month tick landing inside
+    # that span is dropped rather than printed through it.
+    opens_label = "account opens · " + opened.strftime("%d %b %Y")
+    opens_x = lx - gap + 7
+    opens_end = opens_x + len(opens_label) * 6.9
 
-    for i, wk in enumerate(weeks):
-        for r, day in enumerate(wk):
-            # Outside-year cells and future dates are intentionally absent,
-            # exactly like GitHub's year view.
-            if day.year != year or day > today or day < opened:
+    seen = set()
+    for i, wk in enumerate(live):
+        d = datetime.strptime(wk["contributionDays"][0]["date"], "%Y-%m-%d").date()
+        if d.month in seen:
+            continue
+        seen.add(d.month)
+        mx = lx + i * cw
+        if mx < opens_end:
+            continue
+        p.append('<text x="%.1f" y="%d" font-family="%s" font-size="10" fill="%s" '
+                 'letter-spacing="1">%s</text>'
+                 % (mx, top - 12, MONO, t["ink3"], MONTHS[d.month - 1]))
+
+    for i, wk in enumerate(live):
+        by_day = {d["weekday"]: d for d in wk["contributionDays"]}
+        for r in range(7):
+            d = by_day.get(r)
+            if d is None:
                 continue
-
-            ds = day.isoformat()
-            cnt = counts.get(ds, 0)
-            if ds in levels:
-                lvl = levels[ds]
-            else:
+            x, y = lx + i * cw, top + r * ch
+            day = datetime.strptime(d["date"], "%Y-%m-%d").date()
+            cnt = d["contributionCount"]
+            if day < opened:
+                # A few days of the first live week still predate the account.
+                # They get the hairline, not a filled zero: a filled cell would
+                # be a claim about a day that has none.
+                p.append('<rect x="%.2f" y="%.1f" width="%.2f" height="%d" fill="none" '
+                         'stroke="%s" stroke-width="0.75"/>'
+                         % (x + 0.4, y + 0.4, cw - gap - 0.8, ch - gap - 1, t["rule2"]))
+                continue
+            lvl = d.get("_level")
+            if lvl is None:
                 lvl = 0 if cnt == 0 else 1 + min(
                     3, int(3 * (cnt - 1) / max(1, peak - 1))
                 )
             fill = t["heat"][lvl]
-            x = gx + i * pitch
-            y = top + r * pitch
-
-            p.append(
-                '<rect x="%.2f" y="%.2f" width="%.2f" height="%.2f" fill="%s"/>'
-                % (x, y, cell, cell, fill)
-            )
-
+            p.append('<rect x="%.2f" y="%.1f" width="%.2f" height="%d" fill="%s"/>'
+                     % (x, y, cw - gap, ch - gap, fill))
             if cnt:
-                font = max(8.0, min(10.5, cell * 0.58))
-                p.append(
-                    '<text x="%.2f" y="%.2f" font-family="%s" font-size="%.1f" fill="%s" '
-                    'text-anchor="middle">%02x</text>'
-                    % (
-                        x + cell / 2,
-                        y + cell / 2 + font * 0.34,
-                        MONO,
-                        font,
-                        on(fill, t),
-                        min(cnt, 255),
-                    )
-                )
+                p.append('<text x="%.2f" y="%.1f" font-family="%s" font-size="15" fill="%s" '
+                         'text-anchor="middle">%02x</text>'
+                         % (x + (cw - gap) / 2, y + (ch - gap) / 2 + 5, MONO,
+                            on(fill, t), min(cnt, 255)))
 
-    # Legend.
+    # Where the elided stretch ends and the record begins.
+    p.append('<rect x="%.1f" y="%d" width="1.5" height="%d" fill="%s"/>'
+             % (lx - gap, top - 4, grid_h + 8, t["accent"]))
+    p.append('<text x="%.1f" y="%d" font-family="%s" font-size="10" fill="%s" '
+             'letter-spacing="0.8">%s</text>'
+             % (opens_x, top - 12, MONO, t["accent"], esc(opens_label)))
+
+    # legend
     ly = top + grid_h + 32
-    p.append(
-        '<text x="%d" y="%d" font-family="%s" font-size="10" fill="%s">0x00</text>'
-        % (M, ly + 12, MONO, t["ink3"])
-    )
+    p.append('<text x="%d" y="%d" font-family="%s" font-size="10" fill="%s">0x00</text>'
+             % (M, ly + 12, MONO, t["ink3"]))
     for i, c in enumerate(t["heat"]):
-        p.append(
-            '<rect x="%d" y="%d" width="22" height="16" fill="%s"/>'
-            % (M + 40 + i * 26, ly, c)
-        )
-    p.append(
-        '<text x="%d" y="%d" font-family="%s" font-size="10" fill="%s">0x%02x</text>'
-        % (M + 40 + 5 * 26 + 4, ly + 12, MONO, t["ink3"], peak)
-    )
-    p.append(
-        '<text x="%d" y="%d" font-family="%s" font-size="10" fill="%s" text-anchor="end">'
-        'filled dark cell = 0 contributions · no cell = future / outside year</text>'
-        % (W - M, ly + 12, MONO, t["ink3"])
-    )
+        p.append('<rect x="%d" y="%d" width="22" height="16" fill="%s"/>'
+                 % (M + 40 + i * 26, ly, c))
+    p.append('<text x="%d" y="%d" font-family="%s" font-size="10" fill="%s">0x%02x</text>'
+             % (M + 40 + 5 * 26 + 4, ly + 12, MONO, t["ink3"], peak))
+    p.append('<text x="%d" y="%d" font-family="%s" font-size="10" fill="%s" text-anchor="end">'
+             'a hairline cell is a day with no byte · a blank cell is a day with no commit</text>'
+             % (W - M, ly + 12, MONO, t["ink3"]))
     p.append("</svg>")
     return "\n".join(p) + "\n"
 
