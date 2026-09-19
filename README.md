@@ -47,7 +47,7 @@ developer tooling, automation, data and protocol-level experiments.
 <td width="50%" valign="top">
 
 #### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
-<sub>`Go` · `Wails` · `React` · `TypeScript`</sub>
+<sub>`Go` · `Wails` · `React` · `TypeScript` — 1 star</sub>
 
 A local-first AI agent desktop and CLI: multi-session chat, Kanban, terminal multiplexing, memory, skills/plugins and background automation in one app.
 
