@@ -31,8 +31,8 @@ developer tools, automation pipelines and protocol-level integrations.
 
 <!--fig-calendar-->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg">
-  <img alt="The most recent 26 weeks as a hexdump — one byte per day, with activity cells matched to GitHub." src="assets/calendar-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-26w-dark.svg">
+  <img alt="The most recent 26 weeks as a hexdump — one byte per day, with activity cells matched to GitHub." src="assets/calendar-26w-light.svg" width="100%">
 </picture>
 <!--/fig-calendar-->
 
