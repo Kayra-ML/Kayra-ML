@@ -115,7 +115,8 @@ def fetch_public_contributions(year):
     return days
 
 def fetch():
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    token = (os.environ.get("PROFILE_TOKEN") or os.environ.get("GITHUB_TOKEN")
+             or os.environ.get("GH_TOKEN"))
     if not token:
         sys.exit("GITHUB_TOKEN is not set. Try: GITHUB_TOKEN=$(gh auth token) python scripts/build.py")
     req = urllib.request.Request(
@@ -130,13 +131,18 @@ def fetch():
     if "errors" in payload:
         sys.exit("GraphQL error: " + json.dumps(payload["errors"])[:400])
     user = payload["data"]["user"]
-    try:
-        year = datetime.utcnow().year
-        user["_profileCalendar"] = fetch_public_contributions(year)
-        print("profile calendar: %d public-view days for %d" %
-              (len(user["_profileCalendar"]), year))
-    except Exception as e:
-        print("WARNING: public contribution calendar scrape failed: %s" % e)
+    # A personal PROFILE_TOKEN can see Kayra's private contribution calendar,
+    # so keep the GraphQL data in that case. With the repository-scoped Actions
+    # token, fall back to GitHub's public profile HTML so the visible public graph
+    # and its activity levels still match GitHub exactly.
+    if not os.environ.get("PROFILE_TOKEN"):
+        try:
+            year = datetime.utcnow().year
+            user["_profileCalendar"] = fetch_public_contributions(year)
+            print("profile calendar: %d public-view days for %d" %
+                  (len(user["_profileCalendar"]), year))
+        except Exception as e:
+            print("WARNING: public contribution calendar scrape failed: %s" % e)
     return user
 
 
@@ -347,7 +353,7 @@ def main():
     # is simply absent and restrictedContributionsCount still comes back 0. So
     # the workflow sets COUNTS_PRIVATE when a personal token is configured, and
     # the label follows that rather than pretending to detect it.
-    private = bool(os.environ.get("COUNTS_PRIVATE"))
+    private = bool(os.environ.get("PROFILE_TOKEN") or os.environ.get("COUNTS_PRIVATE"))
 
     files, peak = render_figures(u, repos, projects, private)
     os.makedirs(OUT, exist_ok=True)
