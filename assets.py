@@ -227,11 +227,20 @@ def build_calendar(theme_name, u):
     opened = datetime.strptime(u["createdAt"][:10], "%Y-%m-%d").date()
 
     counts = {}
+    levels = {}
     available_dates = []
-    for wk in api_weeks:
-        for d in wk["contributionDays"]:
-            counts[d["date"]] = d["contributionCount"]
-            available_dates.append(datetime.strptime(d["date"], "%Y-%m-%d").date())
+
+    profile_calendar = u.get("_profileCalendar") or {}
+    if profile_calendar:
+        for ds, item in profile_calendar.items():
+            counts[ds] = int(item.get("count", 0))
+            levels[ds] = int(item.get("level", 0))
+            available_dates.append(datetime.strptime(ds, "%Y-%m-%d").date())
+    else:
+        for wk in api_weeks:
+            for d in wk["contributionDays"]:
+                counts[d["date"]] = d["contributionCount"]
+                available_dates.append(datetime.strptime(d["date"], "%Y-%m-%d").date())
 
     today = max(available_dates) if available_dates else date.today()
     year = today.year
@@ -307,10 +316,14 @@ def build_calendar(theme_name, u):
             if day.year != year or day > today or day < opened:
                 continue
 
-            cnt = counts.get(day.isoformat(), 0)
-            lvl = 0 if cnt == 0 else 1 + min(
-                3, int(3 * (cnt - 1) / max(1, peak - 1))
-            )
+            ds = day.isoformat()
+            cnt = counts.get(ds, 0)
+            if ds in levels:
+                lvl = levels[ds]
+            else:
+                lvl = 0 if cnt == 0 else 1 + min(
+                    3, int(3 * (cnt - 1) / max(1, peak - 1))
+                )
             fill = t["heat"][lvl]
             x = gx + i * pitch
             y = top + r * pitch
