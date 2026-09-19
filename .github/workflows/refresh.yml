@@ -31,6 +31,7 @@ jobs:
 
       - name: Build profile
         env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python build.py
 
