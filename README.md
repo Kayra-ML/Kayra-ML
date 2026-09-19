@@ -47,7 +47,7 @@ developer tooling, automation, data and protocol-level experiments.
 <td width="50%" valign="top">
 
 #### [Rove_cli](https://github.com/KAYRA-ML/Rove_cli)
-<sub>`Go` · `Wails` · `React` · `TypeScript` — MIT</sub>
+<sub>`Go` · `Wails` · `React` · `TypeScript`</sub>
 
 A local-first AI agent desktop and CLI: multi-session chat, Kanban, terminal multiplexing, memory, skills/plugins and background automation in one app.
 
@@ -61,7 +61,7 @@ A local-first AI agent desktop and CLI: multi-session chat, Kanban, terminal mul
 
 An open framework for LLM identity forensics: fingerprinting model behavior, testing transparency and detecting when a model is wrapped behind another persona.
 
-<sub>0x01 · 12 Sep 2026 → 17 Sep 2026</sub>
+<sub>0x01 · 12 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -73,7 +73,7 @@ An open framework for LLM identity forensics: fingerprinting model behavior, tes
 
 A token-efficient skill, routing and memory layer for AI coding tools, with domain-aware plugins, deterministic routing and persistent user preferences.
 
-<sub>0x02 · 05 Sep 2026 → 17 Sep 2026</sub>
+<sub>0x02 · 05 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -83,7 +83,7 @@ A token-efficient skill, routing and memory layer for AI coding tools, with doma
 
 A global macOS translator that turns typed text between Turkish and English inside any app using keyboard shortcuts, while preserving clipboard and input state.
 
-<sub>0x03 · 15 Sep 2026 → 17 Sep 2026</sub>
+<sub>0x03 · 15 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ A global macOS translator that turns typed text between Turkish and English insi
 
 A document search system for PDFs and files stored in Google Drive, with a FastAPI backend, browser PDF reading and keyword/page-level search.
 
-<sub>0x04 · 27 Aug 2026 → 17 Sep 2026</sub>
+<sub>0x04 · 27 Aug 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -105,7 +105,7 @@ A document search system for PDFs and files stored in Google Drive, with a FastA
 
 A full-stack Formula 1 data analysis platform for 2024-2025 data, built around RAM-efficient SQL queries, pagination and interactive driver/team analysis.
 
-<sub>0x05 · 01 Jul 2026 → 17 Sep 2026</sub>
+<sub>0x05 · 01 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ A full-stack Formula 1 data analysis platform for 2024-2025 data, built around R
 
 A lightweight Python utility library for common data-processing tasks: strings, dates, file I/O, configuration handling and logging helpers.
 
-<sub>0x06 · 17 Sep 2026 → 17 Sep 2026</sub>
+<sub>0x06 · 17 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -127,7 +127,7 @@ A lightweight Python utility library for common data-processing tasks: strings, 
 
 _No description yet._
 
-<sub>0x07 · 01 Sep 2026 → 17 Sep 2026</sub>
+<sub>0x07 · 01 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x08 · 30 Aug 2026 → 17 Sep 2026</sub>
+<sub>0x08 · 30 Aug 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -149,7 +149,7 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x09 · 26 Aug 2026 → 17 Sep 2026</sub>
+<sub>0x09 · 26 Aug 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x0A · 21 Jul 2026 → 17 Sep 2026</sub>
+<sub>0x0A · 21 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -171,7 +171,7 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x0B · 20 Jul 2026 → 17 Sep 2026</sub>
+<sub>0x0B · 20 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x0C · 20 Jul 2026 → 17 Sep 2026</sub>
+<sub>0x0C · 20 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -193,7 +193,7 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x0D · 05 Jul 2026 → 17 Sep 2026</sub>
+<sub>0x0D · 05 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x0E · 26 Jun 2026 → 17 Sep 2026</sub>
+<sub>0x0E · 26 Jun 2026 → 19 Sep 2026</sub>
 
 </td>
 <td width="50%"></td>
