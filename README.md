@@ -20,7 +20,7 @@ developer tools, automation pipelines and protocol-level integrations.
 ### Stack
 
 `Python` · `NumPy` · `Pandas` · `scikit-learn` · `Matplotlib` · `Jupyter` ·
-`Go` · `Node.js` · `Rust` · `FastAPI` · `PostgreSQL` · `GitHub Actions`
+`Go` · `PostgreSQL` · `GitHub Actions`
 
 <!--fig-fields-->
 <picture>
