@@ -32,7 +32,7 @@ developer tools, automation pipelines and protocol-level integrations.
 <!--fig-calendar-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg">
-  <img alt="The contribution year as a hexdump — one byte per day, the value is that day's commit count." src="assets/calendar-light.svg" width="100%">
+  <img alt="The most recent 26 weeks as a hexdump — one byte per day, the value is that day's commit count." src="assets/calendar-light.svg" width="100%">
 </picture>
 <!--/fig-calendar-->
 
