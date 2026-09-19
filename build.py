@@ -284,10 +284,11 @@ ALT = {
 def figure(name):
     """A <picture> pairing the two themes. GitHub renders this natively, so the
     reader never gets the wrong one baked into an <img>."""
+    asset = "calendar-26w" if name == "calendar" else name
     return ("<picture>\n"
             '  <source media="(prefers-color-scheme: dark)" srcset="assets/%s-dark.svg">\n'
             '  <img alt="%s" src="assets/%s-light.svg" width="100%%">\n'
-            "</picture>" % (name, ALT[name], name))
+            "</picture>" % (asset, ALT[name], asset))
 
 
 def render_figures(u, repos, projects, private):
@@ -302,7 +303,7 @@ def render_figures(u, repos, projects, private):
         files["header-%s.svg" % theme] = assets.build_header(theme, u, len(projects))
         files["fields-%s.svg" % theme] = assets.build_fields(
             theme, cc, len(repos), peak, opened, private)
-        files["calendar-%s.svg" % theme] = assets.build_calendar(theme, u)
+        files["calendar-26w-%s.svg" % theme] = assets.build_calendar(theme, u)
         files["segments-%s.svg" % theme] = assets.build_segments(theme, projects, colours)
         files["langs-%s.svg" % theme] = assets.build_langs(theme, repos)
     return files, peak
