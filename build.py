@@ -273,7 +273,7 @@ ALT = {
               "I'd rather speak the protocol than drive a browser.",
     "fields": "Activity as a struct: contributions, commits, repositories, "
               "busiest day and the date the account opened.",
-    "calendar": "The current year as a hexdump — one byte per day, with past zero days filled and future days left blank.",
+    "calendar": "The most recent 26 weeks as a hexdump — one byte per day, with activity cells matched to GitHub.",
     "segments": "Every public project as a segment on one time axis, from the "
                 "day its repository was created to its last push.",
     "langs": "Languages as a memory map, sized by the bytes of source GitHub "
