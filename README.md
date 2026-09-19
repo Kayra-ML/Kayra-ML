@@ -32,7 +32,7 @@ developer tools, automation pipelines and protocol-level integrations.
 <!--fig-calendar-->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/calendar-dark.svg">
-  <img alt="The current year as a hexdump — one byte per day, with past zero days filled and future days left blank." src="assets/calendar-light.svg" width="100%">
+  <img alt="The most recent 26 weeks as a hexdump — one byte per day, with activity cells matched to GitHub." src="assets/calendar-light.svg" width="100%">
 </picture>
 <!--/fig-calendar-->
 
