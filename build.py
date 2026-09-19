@@ -13,6 +13,7 @@ Each figure is written twice, once per theme, and the README pairs them in a
 <picture> so a reader on either GitHub theme gets the one meant for them.
 """
 
+import html as html_lib
 import json
 import os
 import re
@@ -64,6 +65,55 @@ query($login: String!) {
 """
 
 
+
+def fetch_public_contributions(year):
+    """Read the same public contribution calendar GitHub renders on the profile.
+
+    Unlike the repository-scoped Actions token, this HTML includes anonymized
+    private contribution counts when the profile owner has chosen to publicize
+    them. That makes the generated heatmap match the graph a visitor sees.
+    """
+    url = (
+        "https://github.com/users/%s/contributions?from=%d-01-01&to=%d-12-31"
+        % (USER, year, year)
+    )
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER + "-profile-builder",
+            "Accept": "text/html,application/xhtml+xml",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as r:
+        body = r.read().decode("utf-8", "replace")
+
+    tooltip_counts = {}
+    for m in re.finditer(
+        r'<tool-tip\b[^>]*for="([^"]+)"[^>]*>(.*?)</tool-tip>',
+        body,
+        flags=re.S,
+    ):
+        text = html_lib.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip()
+        cm = re.search(r"([\d,]+)\s+contributions?", text)
+        tooltip_counts[m.group(1)] = int(cm.group(1).replace(",", "")) if cm else 0
+
+    days = {}
+    for m in re.finditer(r"<td\b[^>]*ContributionCalendar-day[^>]*>", body):
+        tag = m.group(0)
+        dm = re.search(r'data-date="(\d{4}-\d{2}-\d{2})"', tag)
+        lm = re.search(r'data-level="([0-4])"', tag)
+        im = re.search(r'id="([^"]+)"', tag)
+        if not dm or not lm:
+            continue
+        days[dm.group(1)] = {
+            "count": tooltip_counts.get(im.group(1), 0) if im else 0,
+            "level": int(lm.group(1)),
+        }
+
+    if not days:
+        raise RuntimeError("GitHub contribution HTML returned no day cells")
+    return days
+
 def fetch():
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
@@ -79,7 +129,15 @@ def fetch():
         payload = json.load(r)
     if "errors" in payload:
         sys.exit("GraphQL error: " + json.dumps(payload["errors"])[:400])
-    return payload["data"]["user"]
+    user = payload["data"]["user"]
+    try:
+        year = datetime.utcnow().year
+        user["_profileCalendar"] = fetch_public_contributions(year)
+        print("profile calendar: %d public-view days for %d" %
+              (len(user["_profileCalendar"]), year))
+    except Exception as e:
+        print("WARNING: public contribution calendar scrape failed: %s" % e)
+    return user
 
 
 # --------------------------------------------------------------------------- project cards
