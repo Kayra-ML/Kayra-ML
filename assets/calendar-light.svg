@@ -409,6 +409,7 @@
 <text x="1132.23" y="296.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#101510" text-anchor="middle">54</text>
 <rect x="1124.45" y="314.0" width="15.55" height="38" fill="#b7ddb9"/>
 <text x="1132.23" y="338.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#101510" text-anchor="middle">0b</text>
+<rect x="1124.45" y="356.0" width="15.55" height="38" fill="#dfe9df"/>
 <rect x="104.0" y="100" width="1.5" height="298" fill="#008f36"/>
 <text x="111.0" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#008f36" letter-spacing="0.8">account opens · 29 Nov 2024</text>
 <text x="56" y="438" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#68756b">0x00</text>
