@@ -214,6 +214,7 @@
 <rect x="1104.15" y="104.0" width="35.85" height="36" fill="#141b1c"/>
 <rect x="1104.15" y="144.0" width="35.85" height="36" fill="#141b1c"/>
 <rect x="1104.15" y="184.0" width="35.85" height="36" fill="#141b1c"/>
+<rect x="1104.15" y="224.0" width="35.85" height="36" fill="#141b1c"/>
 <rect x="104.0" y="100" width="1.5" height="284" fill="#00ff4c"/>
 <text x="111.0" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#00ff4c" letter-spacing="0.8">account opens · 29 Nov 2024</text>
 <text x="56" y="424" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#7f8d84">0x00</text>
