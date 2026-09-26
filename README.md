@@ -51,7 +51,7 @@ developer tooling, automation, data and protocol-level experiments.
 
 A local-first AI agent desktop and CLI: multi-session chat, Kanban, terminal multiplexing, memory, skills/plugins and background automation in one app.
 
-<sub>0x00 · 17 Sep 2026 → 19 Sep 2026</sub>
+<sub>0x00 · 17 Sep 2026 → 26 Sep 2026</sub>
 
 </td>
 <td width="50%" valign="top">
