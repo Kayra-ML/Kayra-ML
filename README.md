@@ -113,7 +113,7 @@ A full-stack Formula 1 data analysis platform for 2024-2025 data, built around R
 <td width="50%" valign="top">
 
 #### [open-_code_klavuz](https://github.com/KAYRA-ML/open-_code_klavuz)
-<sub>25 stars</sub>
+<sub>26 stars</sub>
 
 _No description yet._
 
