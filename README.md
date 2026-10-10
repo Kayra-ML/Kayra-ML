@@ -112,14 +112,26 @@ A full-stack Formula 1 data analysis platform for 2024-2025 data, built around R
 <tr>
 <td width="50%" valign="top">
 
+#### [Codecam_mol](https://github.com/KAYRA-ML/Codecam_mol)
+<sub></sub>
+
+_No description yet._
+
+<sub>0x06 · 10 Oct 2026 → 10 Oct 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
 #### [open-_code_klavuz](https://github.com/KAYRA-ML/open-_code_klavuz)
 <sub>26 stars</sub>
 
 _No description yet._
 
-<sub>0x06 · 01 Sep 2026 → 19 Sep 2026</sub>
+<sub>0x07 · 01 Sep 2026 → 19 Sep 2026</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [codejam](https://github.com/KAYRA-ML/codejam)
@@ -127,11 +139,9 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x07 · 30 Aug 2026 → 19 Sep 2026</sub>
+<sub>0x08 · 30 Aug 2026 → 19 Sep 2026</sub>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [ZscriptBot](https://github.com/KAYRA-ML/ZscriptBot)
@@ -139,9 +149,11 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x08 · 26 Aug 2026 → 19 Sep 2026</sub>
+<sub>0x09 · 26 Aug 2026 → 19 Sep 2026</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [Kayra-ML.github.io](https://github.com/KAYRA-ML/Kayra-ML.github.io)
@@ -149,25 +161,13 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x09 · 21 Jul 2026 → 19 Sep 2026</sub>
+<sub>0x0A · 21 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### [Qbeat](https://github.com/KAYRA-ML/Qbeat)
 <sub>`Python` — 5 stars</sub>
-
-_No description yet._
-
-<sub>0x0A · 20 Jul 2026 → 19 Sep 2026</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### [L-feOS](https://github.com/KAYRA-ML/L-feOS)
-<sub>`HTML` — 7 stars</sub>
 
 _No description yet._
 
@@ -178,14 +178,26 @@ _No description yet._
 <tr>
 <td width="50%" valign="top">
 
+#### [L-feOS](https://github.com/KAYRA-ML/L-feOS)
+<sub>`HTML` — 7 stars</sub>
+
+_No description yet._
+
+<sub>0x0C · 20 Jul 2026 → 19 Sep 2026</sub>
+
+</td>
+<td width="50%" valign="top">
+
 #### [zcore](https://github.com/KAYRA-ML/zcore)
 <sub>`HTML` — 5 stars</sub>
 
 _No description yet._
 
-<sub>0x0C · 05 Jul 2026 → 19 Sep 2026</sub>
+<sub>0x0D · 05 Jul 2026 → 19 Sep 2026</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [thomas](https://github.com/KAYRA-ML/thomas)
@@ -193,9 +205,10 @@ _No description yet._
 
 _No description yet._
 
-<sub>0x0D · 26 Jun 2026 → 19 Sep 2026</sub>
+<sub>0x0E · 26 Jun 2026 → 19 Sep 2026</sub>
 
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 <!--/projects-->
